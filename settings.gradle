@@ -1,0 +1,5 @@
+rootProject.name = 'wuhu-boot'
+include 'wuhu-core'
+include 'wuhu-boot-server'
+include 'wuhu-boot-system'
+include 'wuhu-boot-components'

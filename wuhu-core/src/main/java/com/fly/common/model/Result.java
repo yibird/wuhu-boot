@@ -1,0 +1,66 @@
+package com.fly.common.model;
+
+import com.fly.enums.ResultStatus;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.experimental.Accessors;
+
+/**
+ * @Description: 通用响应对象
+ * @Author: zchengfeng
+ * @Data: 2022/12/6 16:27
+ */
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Accessors(chain = true)
+public class Result<T> {
+
+    private T data;
+    private int code;
+    private String message;
+    private long timestamp;
+
+    public static long getCurrentTimestamp() {
+        return System.currentTimeMillis();
+    }
+
+    public static <T> Result<T> ok(T data) {
+        return Result.ok(data, ResultStatus.SUCCESS.getCode(), ResultStatus.SUCCESS.getMessage());
+    }
+
+    public static <T> Result<T> ok(T data, int code) {
+        return Result.ok(data, code, ResultStatus.SUCCESS.getMessage());
+    }
+
+    public static <T> Result<T> ok(T data, String message) {
+        return Result.ok(data, ResultStatus.SUCCESS.getCode(), message);
+    }
+
+    public static <T> Result<T> ok(T data, int code, String message) {
+        return new Result().setData(data)
+                .setCode(code)
+                .setMessage(message)
+                .setTimestamp(Result.getCurrentTimestamp());
+    }
+
+    public static <T> Result<T> error() {
+        return Result.error(null);
+    }
+
+    public static <T> Result<T> error(T data) {
+        return Result.error(data, ResultStatus.ERROR.getCode());
+    }
+
+    public static <T> Result<T> error(T data, int code) {
+        return Result.error(data, code, ResultStatus.ERROR.getMessage());
+    }
+
+    public static <T> Result<T> error(T data, int code, String message) {
+        return new Result<T>().setData(data)
+                .setCode(code)
+                .setMessage(message)
+                .setTimestamp(Result.getCurrentTimestamp());
+    }
+}
