@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class SysMenu extends BaseDO {
+public class SysMenuDO extends BaseDO {
     private Long id;
     private Long parentId;
     private String menuName;

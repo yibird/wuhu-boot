@@ -56,6 +56,7 @@ public class GlobalExceptionHandler {
      */
     @ExceptionHandler(Exception.class)
     public Result<String> handleException(Exception ex) {
-        return Result.error(ResultStatus.ERROR);
+        System.out.println("Exception ex：" + ex);
+        return Result.error(ResultStatus.ERROR.getCode(),ex.getMessage());
     }
 }

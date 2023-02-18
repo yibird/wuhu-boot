@@ -7,3 +7,17 @@ spring:
     multipart:
       max-file-size: 1024MB
       max-request-size: 1024MB
+
+##### mybatis-plus配置
+mybatis-plus:
+  type-aliases-package: com.fly.model.domain
+  mapper-locations: classpath*:/mapper/**/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+    call-setters-on-nulls: true
+    jdbc-type-for-null: 'null'
+  global-config:
+    db-config:
+      id-type: AUTO
+      update-strategy: not_null

@@ -1,7 +1,7 @@
 package com.fly.mybatis.service.impl;
 
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.fly.mybatis.mapper.BaseMapper;
 import com.fly.mybatis.service.BaseService;
 
 /**

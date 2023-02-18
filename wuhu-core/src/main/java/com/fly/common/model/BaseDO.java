@@ -1,6 +1,8 @@
 package com.fly.common.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.Date;
 
@@ -10,6 +12,8 @@ import java.util.Date;
  * @Data: 2022/12/6 16:13
  */
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class BaseDO {
     private Integer orderNum;
     private String remark;

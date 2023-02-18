@@ -12,6 +12,5 @@ import org.mapstruct.factory.Mappers;
  */
 @Mapper
 public interface SysRoleConvert {
-
     SysRoleConvert INSTANCE = Mappers.getMapper(SysRoleConvert.class);
 }
