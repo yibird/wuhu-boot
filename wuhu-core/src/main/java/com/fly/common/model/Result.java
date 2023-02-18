@@ -1,6 +1,6 @@
 package com.fly.common.model;
 
-import com.fly.enums.ResultStatus;
+import com.fly.common.exception.ResultStatus;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

@@ -3,3 +3,13 @@ include 'wuhu-core'
 include 'wuhu-boot-server'
 include 'wuhu-boot-system'
 include 'wuhu-boot-components'
+
+include 'wuhu-boot-components:wuhu-component-generator'
+findProject(':wuhu-boot-components:wuhu-component-generator')?.name = 'wuhu-component-generator'
+include 'wuhu-boot-components:wuhu-component-message'
+findProject(':wuhu-boot-components:wuhu-component-message')?.name = 'wuhu-component-message'
+include 'wuhu-boot-components:wuhu-component-monitor'
+findProject(':wuhu-boot-components:wuhu-component-monitor')?.name = 'wuhu-component-monitor'
+include 'wuhu-boot-components:wuhu-component-oss'
+findProject(':wuhu-boot-components:wuhu-component-oss')?.name = 'wuhu-component-oss'
+

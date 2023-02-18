@@ -1,0 +1,28 @@
+ext {
+    version = [
+            "mysqlVersion"    : "8.0.32",
+            "mpVersion"       : "3.5.3.1",
+            "hutoolVersion"   : "5.8.12",
+            "lombokVersion"   : "1.18.26",
+            "mapstructVersion": "1.5.3.Final",
+            "jupiterVersion"  : "5.6.0",
+            "jwtVersion"      : "4.2.2",
+            "knife4jVersion"  : "2.0.9",
+            "easyexcelVersion": "3.2.1",
+            "okioVersion"     : "3.3.0"
+    ]
+    dependencies = [
+            "com.mysql:mysql-connector-j"                                     : "com.mysql:mysql-connector-j:${version.mysqlVersion}",
+            "mybatis-plus-boot-starter"                                       : "com.baomidou:mybatis-plus-boot-starter:${version.mpVersion}",
+            "cn.hutool:hutool-all"                                            : "cn.hutool:hutool-all:${version.hutoolVersion}",
+            "org.projectlombok:lombok"                                        : "org.projectlombok:lombok:${version.lombokVersion}",
+            "org.projectlombok:lombok"                                        : "org.projectlombok:lombok:${version.lombokVersion}",
+            "org.mapstruct:mapstruct"                                         : "org.mapstruct:mapstruct:${version.mapstructVersion}",
+            "org.mapstruct:mapstruct-processor"                               : "org.mapstruct:mapstruct-processor:${version.mapstructVersion}",
+            "org.junit.jupiter:junit-jupiter-api"                             : "org.junit.jupiter:junit-jupiter-api:${version.jupiterVersion}",
+            "com.auth0:java-jwt"                                              : "com.auth0:java-jwt:${version.jwtVersion}",
+            "com.github.xiaoymin:knife4j-spring-boot-starter": "com.github.xiaoymin:knife4j-spring-boot-starter:${version.knife4jVersion}",
+            "com.alibaba:easyexcel"                                           : "com.alibaba:easyexcel:${version.easyexcelVersion}",
+            "com.squareup.okio:okio"                                          : "com.squareup.okio:okio:${version.okioVersion}"
+    ]
+}

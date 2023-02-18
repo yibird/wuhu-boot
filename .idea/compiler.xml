@@ -6,12 +6,16 @@
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
-          <entry name="$PROJECT_DIR$/../../../../application/gradle-7.6/repository/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.24/13a394eed5c4f9efb2a6d956e2086f1d81e857d9/lombok-1.18.24.jar" />
-          <entry name="$PROJECT_DIR$/../../../../application/gradle-7.6/repository/caches/modules-2/files-2.1/org.mapstruct/mapstruct-processor/1.5.3.Final/dce418bedafd71ff8dd2cef15006c0fee788b073/mapstruct-processor-1.5.3.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../../../app/gradle-7.6/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.26/8f8cf0372abf564913e9796623aac4c8ea44025a/lombok-1.18.26.jar" />
+          <entry name="$PROJECT_DIR$/../../../../app/gradle-7.6/caches/modules-2/files-2.1/org.mapstruct/mapstruct-processor/1.5.3.Final/dce418bedafd71ff8dd2cef15006c0fee788b073/mapstruct-processor-1.5.3.Final.jar" />
         </processorPath>
+        <module name="wuhu-boot.wuhu-boot-components.wuhu-component-monitor.main" />
+        <module name="wuhu-boot.wuhu-boot-components.wuhu-component-generator.main" />
         <module name="wuhu-boot.wuhu-boot-system.main" />
         <module name="wuhu-boot.wuhu-core.main" />
         <module name="wuhu-boot.wuhu-boot-components.main" />
+        <module name="wuhu-boot.wuhu-boot-components.wuhu-component-oss.main" />
+        <module name="wuhu-boot.wuhu-boot-components.wuhu-component-message.main" />
         <module name="wuhu-boot.wuhu-boot-server.main" />
       </profile>
     </annotationProcessing>

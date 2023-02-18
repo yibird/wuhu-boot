@@ -8,12 +8,15 @@
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="$PROJECT_DIR$/../../../../application/gradle-7.6" />
-        <option name="gradleJvm" value="1.8" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/wuhu-boot-components" />
+            <option value="$PROJECT_DIR$/wuhu-boot-components/wuhu-component-generator" />
+            <option value="$PROJECT_DIR$/wuhu-boot-components/wuhu-component-message" />
+            <option value="$PROJECT_DIR$/wuhu-boot-components/wuhu-component-monitor" />
+            <option value="$PROJECT_DIR$/wuhu-boot-components/wuhu-component-oss" />
             <option value="$PROJECT_DIR$/wuhu-boot-server" />
             <option value="$PROJECT_DIR$/wuhu-boot-system" />
             <option value="$PROJECT_DIR$/wuhu-core" />

@@ -10,12 +10,18 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.mysql:mysql-connector-j:8.0.32'
-    implementation 'com.baomidou:mybatis-plus-boot-starter:3.5.3'
-    implementation 'cn.hutool:hutool-all:5.8.12'
+    implementation 'com.mysql:mysql-connector-j'
+    implementation 'com.baomidou:mybatis-plus-boot-starter'
+    implementation 'cn.hutool:hutool-all'
     implementation 'org.springframework.boot:spring-boot-starter-test'
     implementation "org.springframework.boot:spring-boot-starter-validation"
-    implementation 'com.auth0:java-jwt:4.2.2'
+    implementation 'com.auth0:java-jwt'
+    implementation "com.github.xiaoymin:knife4j-spring-boot-starter"
+    implementation "org.springframework.boot:spring-boot-starter-validation"
+    implementation "org.springframework.boot:spring-boot-starter-security"
+    implementation "org.springframework.boot:spring-boot-starter-data-redis"
+    implementation "com.alibaba:easyexcel"
+    implementation "com.squareup.okio:okio"
 }
 
 test {

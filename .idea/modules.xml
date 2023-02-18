@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/wuhu-admin.iml" filepath="$PROJECT_DIR$/.idea/modules/wuhu-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wuhu-boot-server/wuhu-boot.wuhu-boot-server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/wuhu-boot-server/wuhu-boot.wuhu-boot-server.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wuhu-boot-system/wuhu-boot.wuhu-boot-system.main.iml" filepath="$PROJECT_DIR$/.idea/modules/wuhu-boot-system/wuhu-boot.wuhu-boot-system.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wuhu-core/wuhu-boot.wuhu-core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/wuhu-core/wuhu-boot.wuhu-core.main.iml" />
     </modules>
   </component>
 </project>
