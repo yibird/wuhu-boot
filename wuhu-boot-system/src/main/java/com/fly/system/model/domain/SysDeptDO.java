@@ -1,7 +1,9 @@
 package com.fly.system.model.domain;
 
 import com.fly.common.model.BaseDO;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * @Description: 部门DO
@@ -9,6 +11,8 @@ import lombok.Data;
  * @Date: 2023-02-12 14:29:49
  */
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class SysDeptDO extends BaseDO {
     private Long id;
     private Long parentId;

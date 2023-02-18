@@ -1,10 +1,12 @@
 package com.fly.enums;
 
 /**
- * 响应状态码枚举类
+ * @Description: 响应状态码枚举类
+ * @Author: zchengfeng
+ * @Date: 2023-02-15 23:17:46
  */
 public enum ResultStatus {
-
+    // 响应成功
     SUCCESS(200, "响应成功"),
     ERROR(500, "服务器错误"),
     // 访问令牌非法
