@@ -7,4 +7,6 @@ import java.util.List;
 
 public interface SysRoleService extends BaseService<SysRoleDO> {
     List<SysRoleDO> getRoles();
+    int addRole(SysRoleDO sysRoleDO);
+    int delRole(Long id);
 }

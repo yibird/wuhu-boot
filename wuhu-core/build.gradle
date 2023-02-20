@@ -11,19 +11,19 @@ repositories {
 }
 
 dependencies {
-//    implementation "org.springframework.boot:spring-boot-starter-security"
-    implementation "org.springframework.boot:spring-boot-starter-validation"
+    implementation "org.springframework.boot:spring-boot-starter-security"
+    api "org.springframework.boot:spring-boot-starter-validation"
     implementation "org.springframework.boot:spring-boot-starter-data-redis"
+    api 'com.github.xiaoymin:knife4j-openapi3-jakarta-spring-boot-starter'
 
+    api 'jakarta.servlet:jakarta.servlet-api'
     api 'com.baomidou:mybatis-plus-boot-starter'
     implementation 'com.mysql:mysql-connector-j'
     implementation 'cn.hutool:hutool-all'
-    implementation 'org.springframework.boot:spring-boot-starter-test'
-    implementation "org.springframework.boot:spring-boot-starter-validation"
     implementation 'com.auth0:java-jwt'
-    implementation "com.github.xiaoymin:knife4j-spring-boot-starter"
-    implementation "com.alibaba:easyexcel"
-    implementation "com.squareup.okio:okio"
+    implementation 'com.alibaba:easyexcel'
+    implementation 'com.squareup.okio:okio'
+    implementation 'org.lionsoul:ip2region'
 }
 
 test {

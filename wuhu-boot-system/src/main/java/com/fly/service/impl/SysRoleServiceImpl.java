@@ -1,6 +1,7 @@
 package com.fly.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.fly.common.model.BaseDO;
 import com.fly.mapper.SysRoleMapper;
 import com.fly.model.domain.SysRoleDO;
 import com.fly.mybatis.service.impl.BaseServiceImpl;
@@ -13,16 +14,22 @@ import java.util.List;
 
 @Service
 public class SysRoleServiceImpl extends BaseServiceImpl<SysRoleMapper<SysRoleDO>, SysRoleDO> implements SysRoleService {
-    private SysRoleMapper sysRoleMapper;
 
     @Autowired
-    public SysRoleServiceImpl(final SysRoleMapper sysRoleMapper) {
-        this.sysRoleMapper = sysRoleMapper;
-    }
+    private SysRoleMapper<BaseDO> sysRoleMapper;
 
     @Override
     public List<SysRoleDO> getRoles() {
-        System.out.println("sysRoleMapper.getRoles()："+sysRoleMapper.selectList(new QueryWrapper()));
-        return new ArrayList<>();
+        return sysRoleMapper.selectList(new QueryWrapper());
+    }
+
+    @Override
+    public int addRole(SysRoleDO sysRoleDO) {
+        return sysRoleMapper.addRole(sysRoleDO);
+    }
+
+    @Override
+    public int delRole(Long id) {
+        return sysRoleMapper.deleteById(id);
     }
 }

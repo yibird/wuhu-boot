@@ -10,8 +10,7 @@ repositories {
 }
 
 dependencies {
-    implementation(project(':wuhu-boot-system'))
-    implementation project(':wuhu-core')
+    implementation project(':wuhu-boot-system')
 }
 
 test {

@@ -16,8 +16,8 @@ mybatis-plus:
     map-underscore-to-camel-case: true
     cache-enabled: false
     call-setters-on-nulls: true
-    jdbc-type-for-null: 'null'
+    jdbc-type-for-null: null
   global-config:
     db-config:
-      id-type: AUTO
+      id-type: auto
       update-strategy: not_null
