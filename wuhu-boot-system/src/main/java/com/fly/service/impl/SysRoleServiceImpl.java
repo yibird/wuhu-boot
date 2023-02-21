@@ -25,7 +25,7 @@ public class SysRoleServiceImpl extends BaseServiceImpl<SysRoleMapper<SysRoleDO>
 
     @Override
     public int addRole(SysRoleDO sysRoleDO) {
-        return sysRoleMapper.addRole(sysRoleDO);
+        return sysRoleMapper.insert(sysRoleDO);
     }
 
     @Override

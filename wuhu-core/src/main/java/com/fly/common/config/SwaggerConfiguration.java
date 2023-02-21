@@ -1,5 +1,6 @@
 package com.fly.common.config;
 
+import io.swagger.v3.oas.models.ExternalDocumentation;
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Contact;
 import io.swagger.v3.oas.models.info.Info;
@@ -23,18 +24,15 @@ public class SwaggerConfiguration {
                 .pathsToMatch(paths)
                 .packagesToScan(packagedToMatch).build();
     }
-
     @Bean
-    public OpenAPI customOpenAPI() {
-        Contact contact = new Contact();
-        contact.setName("zchengfeng 2684837849@qq.com");
-        return new OpenAPI().info(new Info()
-                .title("WuhuBoot")
-                .description("wuhu-admin java server")
-                .contact(contact)
-                .version("1.0")
-                .termsOfService("https://wuhu.com")
-                .license(new License().name("MIT")
-                        .url("https://wuhu.com")));
+    public OpenAPI springShopOpenAPI() {
+        return new OpenAPI()
+                .info(new Info().title("SpringShop API")
+                        .description("Spring shop sample application")
+                        .version("v0.0.1")
+                        .license(new License().name("Apache 2.0").url("http://springdoc.org")))
+                .externalDocs(new ExternalDocumentation()
+                        .description("SpringShop Wiki Documentation")
+                        .url("https://springshop.wiki.github.org/docs"));
     }
 }

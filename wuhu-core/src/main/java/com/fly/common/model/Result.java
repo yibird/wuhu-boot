@@ -26,6 +26,10 @@ public class Result<T> {
         return System.currentTimeMillis();
     }
 
+    public static <T> Result<T> ok() {
+        return Result.ok(null, ResultStatus.SUCCESS.getCode(), ResultStatus.SUCCESS.getMessage());
+    }
+
     public static <T> Result<T> ok(T data) {
         return Result.ok(data, ResultStatus.SUCCESS.getCode(), ResultStatus.SUCCESS.getMessage());
     }

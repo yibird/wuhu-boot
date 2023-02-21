@@ -1,4 +1,5 @@
 package com.fly.model.domain;
+
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.fly.common.model.BaseDO;

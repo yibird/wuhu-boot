@@ -23,6 +23,7 @@ public class ReturnValueConfig implements InitializingBean {
         List<HandlerMethodReturnValueHandler> newHandlers = new ArrayList<>(originHandlers.size());
         for (HandlerMethodReturnValueHandler originHandler : originHandlers) {
             if (originHandler instanceof RequestResponseBodyMethodProcessor) {
+//                System.out.println("newHandlers:"+newHandlers.);
                 newHandlers.add(new ResultMethodReturnValueHandler(originHandler));
             } else {
                 newHandlers.add(originHandler);
