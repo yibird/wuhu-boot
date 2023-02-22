@@ -11,22 +11,24 @@ ext {
             "easyexcelVersion": "3.2.1",
             "okioVersion"     : "3.3.0",
             "jakartaVersion"  : "6.0.0",
-            "ip2regionVersion": "2.7.0"
+            "ip2regionVersion": "2.7.0",
+            "caffeineVersion" : "3.1.4"
     ]
     dependencies = [
-            "com.mysql:mysql-connector-j"                    : "com.mysql:mysql-connector-j:${version.mysqlVersion}",
-            "mybatis-plus-boot-starter"                      : "com.baomidou:mybatis-plus-boot-starter:${version.mpVersion}",
-            "cn.hutool:hutool-all"                           : "cn.hutool:hutool-all:${version.hutoolVersion}",
-            "org.projectlombok:lombok"                       : "org.projectlombok:lombok:${version.lombokVersion}",
-            "org.projectlombok:lombok"                       : "org.projectlombok:lombok:${version.lombokVersion}",
-            "org.mapstruct:mapstruct"                        : "org.mapstruct:mapstruct:${version.mapstructVersion}",
-            "org.mapstruct:mapstruct-processor"              : "org.mapstruct:mapstruct-processor:${version.mapstructVersion}",
-            "org.junit.jupiter:junit-jupiter-api"            : "org.junit.jupiter:junit-jupiter-api:${version.jupiterVersion}",
-            "com.auth0:java-jwt"                             : "com.auth0:java-jwt:${version.jwtVersion}",
+            "com.mysql:mysql-connector-j"                                     : "com.mysql:mysql-connector-j:${version.mysqlVersion}",
+            "mybatis-plus-boot-starter"                                       : "com.baomidou:mybatis-plus-boot-starter:${version.mpVersion}",
+            "cn.hutool:hutool-all"                                            : "cn.hutool:hutool-all:${version.hutoolVersion}",
+            "org.projectlombok:lombok"                                        : "org.projectlombok:lombok:${version.lombokVersion}",
+            "org.projectlombok:lombok"                                        : "org.projectlombok:lombok:${version.lombokVersion}",
+            "org.mapstruct:mapstruct"                                         : "org.mapstruct:mapstruct:${version.mapstructVersion}",
+            "org.mapstruct:mapstruct-processor"                               : "org.mapstruct:mapstruct-processor:${version.mapstructVersion}",
+            "org.junit.jupiter:junit-jupiter-api"                             : "org.junit.jupiter:junit-jupiter-api:${version.jupiterVersion}",
+            "com.auth0:java-jwt"                                              : "com.auth0:java-jwt:${version.jwtVersion}",
             "com.github.xiaoymin:knife4j-openapi3-jakarta-spring-boot-starter": "com.github.xiaoymin:knife4j-openapi3-jakarta-spring-boot-starter:${version.knife4jVersion}",
-            "com.alibaba:easyexcel"                          : "com.alibaba:easyexcel:${version.easyexcelVersion}",
-            "com.squareup.okio:okio"                         : "com.squareup.okio:okio:${version.okioVersion}",
-            "jakarta.servlet:jakarta.servlet-api"            : "jakarta.servlet:jakarta.servlet-api:${version.jakartaVersion}",
-            "org.lionsoul:ip2region"                         : "org.lionsoul:ip2region:${version.ip2regionVersion}"
+            "com.alibaba:easyexcel"                                           : "com.alibaba:easyexcel:${version.easyexcelVersion}",
+            "com.squareup.okio:okio"                                          : "com.squareup.okio:okio:${version.okioVersion}",
+            "jakarta.servlet:jakarta.servlet-api"                             : "jakarta.servlet:jakarta.servlet-api:${version.jakartaVersion}",
+            "org.lionsoul:ip2region"                                          : "org.lionsoul:ip2region:${version.ip2regionVersion}",
+            "com.github.ben-manes.caffeine:caffeine"                          : "com.github.ben-manes.caffeine:caffeine:${version.caffeineVersion}"
     ]
 }

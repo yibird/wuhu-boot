@@ -1,14 +1,18 @@
 package com.fly.controller;
 
+import com.fly.common.model.Result;
 import com.fly.model.domain.SysRoleDO;
+import com.fly.model.dto.SysRoleDTO;
 import com.fly.service.SysRoleService;
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
 import java.util.List;
 
 /**
@@ -34,9 +38,27 @@ public class SysRoleController {
         return sysRoleService.getRoles();
     }
 
-    @PostMapping("/delRole")
-//    @Operation(summary = "删除角色",method = "POST")
-    public String delRole() {
+    @PostMapping("/del")
+    @Operation(summary = "删除角色", method = "POST")
+    public String del(@Parameter(name = "角色id") int id) {
         return "";
+    }
+
+    @PostMapping("/update")
+    @Operation(summary = "修改角色", method = "POST")
+    public Result update(@Parameter(name = "角色DTO") SysRoleDTO sysRoleDTO) {
+        return Result.ok();
+    }
+
+    @PostMapping("/add")
+    @Operation(summary = "添加角色", method = "POST")
+    public Result add(@Parameter(name = "角色DTO") SysRoleDTO sysRoleDTO) {
+        return Result.ok();
+    }
+
+    @GetMapping("/getInfo")
+    @Operation(summary = "获取详情")
+    public SysRoleDO getInfo(@Parameter(name = "角色id") int id) {
+        return null;
     }
 }

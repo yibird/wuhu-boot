@@ -10,7 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest(classes = ServerApplication.class)
 public class RunTest {
     @Autowired
-    SysRoleMapper<BaseDO> sysRoleMapper;
+    SysRoleMapper sysRoleMapper;
 
     @Test
     public void sss() {

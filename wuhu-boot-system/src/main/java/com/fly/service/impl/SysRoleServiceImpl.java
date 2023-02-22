@@ -6,6 +6,7 @@ import com.fly.mapper.SysRoleMapper;
 import com.fly.model.domain.SysRoleDO;
 import com.fly.mybatis.service.impl.BaseServiceImpl;
 import com.fly.service.SysRoleService;
+import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -13,10 +14,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class SysRoleServiceImpl extends BaseServiceImpl<SysRoleMapper<SysRoleDO>, SysRoleDO> implements SysRoleService {
-
-    @Autowired
-    private SysRoleMapper<BaseDO> sysRoleMapper;
+@AllArgsConstructor
+public class SysRoleServiceImpl extends BaseServiceImpl<SysRoleMapper, SysRoleDO> implements SysRoleService {
+    private final SysRoleMapper sysRoleMapper;
 
     @Override
     public List<SysRoleDO> getRoles() {

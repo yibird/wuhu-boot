@@ -14,7 +14,7 @@ import java.util.List;
  * @Date: 2023-02-12 14:47:03
  */
 @Mapper
-public interface SysRoleMapper<S extends BaseDO> extends BaseMapper<SysRoleDO> {
+public interface SysRoleMapper extends BaseMapper<SysRoleDO> {
     default List<SysRoleDO> getRoles() {
         return this.selectList(new QueryWrapper());
     }

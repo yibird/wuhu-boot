@@ -55,10 +55,7 @@ public class Result<T> {
     }
 
     public static <T> Result ok(T data, int code, String message) {
-        return new Result().setData(data)
-                .setCode(code)
-                .setMessage(message)
-                .setTimestamp(Result.getCurrentTimestamp());
+        return new Result().setData(data).setCode(code).setMessage(message).setTimestamp(Result.getCurrentTimestamp());
     }
 
     public static <T> Result<T> error() {
@@ -87,9 +84,11 @@ public class Result<T> {
     }
 
     public static <T> Result<T> error(T data, int code, String message) {
-        return new Result<T>().setData(data)
-                .setCode(code)
-                .setMessage(message)
-                .setTimestamp(Result.getCurrentTimestamp());
+        return new Result<T>().setData(data).setCode(code).setMessage(message).setTimestamp(Result.getCurrentTimestamp());
+    }
+
+    public static <T> Result<T> of(boolean b, String m1, String m2) {
+        int code = b ? ResultStatus.SUCCESS.getCode() : ResultStatus.ERROR.getCode();
+        return Result.ok(code, b ? m1 : m2);
     }
 }

@@ -24,13 +24,20 @@ public class SwaggerConfiguration {
                 .pathsToMatch(paths)
                 .packagesToScan(packagedToMatch).build();
     }
+
     @Bean
     public OpenAPI springShopOpenAPI() {
         return new OpenAPI()
-                .info(new Info().title("SpringShop API")
-                        .description("Spring shop sample application")
+                .info(new Info().title("wuhu docs")
+                        .description("wuhu docs")
                         .version("v0.0.1")
-                        .license(new License().name("Apache 2.0").url("http://springdoc.org")))
+                        .termsOfService("https://com.fly")
+                        .license(new License()
+                                .name("Apache 2.0")
+                                .url("http://springdoc.org"))
+                        .contact(new Contact().name("zchengfeng")
+                                .email("2684837849@qq.com")
+                                .url("")))
                 .externalDocs(new ExternalDocumentation()
                         .description("SpringShop Wiki Documentation")
                         .url("https://springshop.wiki.github.org/docs"));

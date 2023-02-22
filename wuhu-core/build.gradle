@@ -28,6 +28,7 @@ dependencies {
     implementation 'com.squareup.okio:okio'
     implementation 'org.lionsoul:ip2region'
     implementation 'com.alibaba.fastjson2:fastjson2-extension-spring6:2.0.24'
+    implementation 'com.github.ben-manes.caffeine:caffeine'
 }
 
 test {

@@ -5,5 +5,5 @@ package com.fly.controller;
  * @Author: zchengfeng
  * @Data: 2022/12/6 16:48
  */
-public class UserController {
+public class SysUserController {
 }
