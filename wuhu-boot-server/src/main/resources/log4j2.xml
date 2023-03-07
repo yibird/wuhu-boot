@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+
+    <properties>
+        <!-- 日志文件存放路径 -->
+        <property name="LOG_HOME">./log</property>
+        <!-- 日志文件最大大小,超出范围则自动进行日志分割 -->
+        <property name="MAX_SIZE">100MB</property>
+        <!-- 日志的文件个数上限 -->
+        <property name="FILE_SIZE">100</property>
+    </properties>
+
+    <!-- 日志附加器集合,Appender负责将LogEvent传递到其目的地 -->
+    <Appenders>
+        <!-- 控制台附加器日志配置  -->
+        <Console name="consoleAppender" target="SYSTEM_OUT">
+            <!-- 设置日志格式及颜色 -->
+            <PatternLayout
+                    pattern="%style{%d{ISO8601}}{bright,green} %highlight{%-5level} [%style{%t}{bright,blue}] %style{%C{}}{bright,yellow}: %msg%n%style{%throwable}{red}"
+                    disableAnsi="false" noConsoleNoAnsi="false"/>
+        </Console>
+
+        <!-- 滚动随机访问文件附加器(all级别),内部采用 ByteBuffer + RandomAccessFile实现,
+            与设置"bufferedIO=true"的 RollingFileAppender 相比性能提升20-200%。  -->
+        <RollingRandomAccessFile name="fileAppender"
+                                 fileName="${LOG_HOME}/all-${date:yyyy-MM-dd}.log"
+                                 filePattern="${LOG_HOME}/$${date:yyyy-MM}/all-%d{yyyy-MM-dd}-%i.log.gz">
+            <!-- 设置日志格式 -->
+            <PatternLayout>
+                <pattern>%d %p %C{} [%t] %m%n</pattern>
+            </PatternLayout>
+            <Policies>
+                <!-- 设置日志文件切分参数 -->
+                <!--<OnStartupTriggeringPolicy/>-->
+                <!--设置日志基础文件大小，超过该大小就触发日志文件滚动更新-->
+                <SizeBasedTriggeringPolicy size="${MAX_SIZE}"/>
+                <!--设置日志文件滚动更新的时间，依赖于文件命名filePattern的设置-->
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+            <!-- 设置日志的文件个数上限,不设置默认为7个,超过大小后会被覆盖;依赖于filePattern中的%i -->
+            <DefaultRolloverStrategy max="${FILE_SIZE}"/>
+        </RollingRandomAccessFile>
+
+        <!-- debug级别日志 -->
+        <RollingRandomAccessFile name="debugFileAppender"
+                                 fileName="${LOG_HOME}/debug-${date:yyyy-MM-dd}.log"
+                                 filePattern="${LOG_HOME}/$${date:yyyy-MM}/debug-%d{yyyy-MM-dd}-%i.log.gz">
+            <Filters>
+                <!-- 过滤掉info及更高级别日志 -->
+                <ThresholdFilter level="info" onMatch="DENY" onMismatch="NEUTRAL"/>
+            </Filters>
+            <!-- 设置日志格式 -->
+            <PatternLayout>
+                <pattern>%d %p %C{} [%t] %m%n</pattern>
+            </PatternLayout>
+            <Policies>
+                <!-- 设置日志文件切分参数 -->
+                <!-- <OnStartupTriggeringPolicy/> -->
+                <!-- 设置日志基础文件大小,超过该大小就触发日志文件滚动更新 -->
+                <SizeBasedTriggeringPolicy size="${MAX_SIZE}"/>
+                <!-- 设置日志文件滚动更新的时间，依赖于文件命名filePattern的设置 -->
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+            <!-- 设置日志的文件个数上限,不设置默认为7个,超过大小后会被覆盖;依赖于filePattern中的%i -->
+            <DefaultRolloverStrategy max="${FILE_SIZE}"/>
+        </RollingRandomAccessFile>
+
+        <!-- info级别日志 -->
+        <RollingRandomAccessFile name="infoFileAppender"
+                                 fileName="${LOG_HOME}/info-${date:yyyy-MM-dd}.log"
+                                 filePattern="${LOG_HOME}/$${date:yyyy-MM}/info-%d{yyyy-MM-dd}-%i.log.gz">
+            <Filters>
+                <!-- 过滤掉warn及更高级别日志 -->
+                <ThresholdFilter level="warn" onMatch="DENY" onMismatch="NEUTRAL"/>
+            </Filters>
+            <!--设置日志格式-->
+            <PatternLayout>
+                <pattern>%d %p %C{} [%t] %m%n</pattern>
+            </PatternLayout>
+            <Policies>
+                <!-- 设置日志文件切分参数 -->
+                <!-- <OnStartupTriggeringPolicy/> -->
+                <!-- 设置日志基础文件大小,超过该大小就触发日志文件滚动更新 -->
+                <SizeBasedTriggeringPolicy size="${MAX_SIZE}"/>
+                <!--设置日志文件滚动更新的时间，依赖于文件命名filePattern的设置-->
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+            <!-- 设置日志的文件个数上限,不设置默认为7个,超过大小后会被覆盖;依赖于filePattern中的%i -->
+            <DefaultRolloverStrategy max="${FILE_SIZE}"/>
+        </RollingRandomAccessFile>
+
+
+        <!-- warn级别日志 -->
+        <RollingRandomAccessFile name="warnFileAppender"
+                                 fileName="${LOG_HOME}/warn-${date:yyyy-MM-dd}.log"
+                                 filePattern="${LOG_HOME}/$${date:yyyy-MM}/warn-%d{yyyy-MM-dd}-%i.log.gz">
+            <Filters>
+                <!-- 过滤掉warn及更高级别日志 -->
+                <ThresholdFilter level="error" onMatch="DENY" onMismatch="NEUTRAL"/>
+            </Filters>
+            <!--设置日志格式-->
+            <PatternLayout>
+                <pattern>%d %p %C{} [%t] %m%n</pattern>
+            </PatternLayout>
+            <Policies>
+                <!-- 设置日志文件切分参数 -->
+                <!-- <OnStartupTriggeringPolicy/> -->
+                <!-- 设置日志基础文件大小,超过该大小就触发日志文件滚动更新 -->
+                <SizeBasedTriggeringPolicy size="${MAX_SIZE}"/>
+                <!-- 设置日志文件滚动更新的时间，依赖于文件命名filePattern的设置 -->
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+            <!-- 设置日志的文件个数上限,不设置默认为7个,超过大小后会被覆盖;依赖于filePattern中的%i -->
+            <DefaultRolloverStrategy max="${FILE_SIZE}"/>
+        </RollingRandomAccessFile>
+
+        <!-- error级别日志 -->
+        <RollingRandomAccessFile name="errorFileAppender"
+                                 fileName="${LOG_HOME}/error-${date:yyyy-MM-dd}.log"
+                                 filePattern="${LOG_HOME}/$${date:yyyy-MM}/error-%d{yyyy-MM-dd}-%i.log.gz">
+            <Filters>
+                <!-- 过滤掉fatal及更高级别日志 -->
+                <ThresholdFilter level="fatal" onMatch="DENY" onMismatch="NEUTRAL"/>
+            </Filters>
+            <!--设置日志格式-->
+            <PatternLayout>
+                <pattern>%d %p %C{} [%t] %m%n</pattern>
+            </PatternLayout>
+            <Policies>
+                <!-- 设置日志文件切分参数 -->
+                <!-- <OnStartupTriggeringPolicy/> -->
+                <!-- 设置日志基础文件大小,超过该大小就触发日志文件滚动更新 -->
+                <SizeBasedTriggeringPolicy size="${MAX_SIZE}"/>
+                <!--设置日志文件滚动更新的时间，依赖于文件命名filePattern的设置-->
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+            <!-- 设置日志的文件个数上限,不设置默认为7个,超过大小后会被覆盖;依赖于filePattern中的%i -->
+            <DefaultRolloverStrategy max="${FILE_SIZE}"/>
+        </RollingRandomAccessFile>
+
+        <!-- fatal级别日志 -->
+        <RollingRandomAccessFile name="fatalFileAppender"
+                                 fileName="${LOG_HOME}/fatal-${date:yyyy-MM-dd}.log"
+                                 filePattern="${LOG_HOME}/$${date:yyyy-MM}/fatal-%d{yyyy-MM-dd}-%i.log.gz">
+            <!--设置日志格式-->
+            <PatternLayout>
+                <pattern>%d %p %C{} [%t] %m%n</pattern>
+            </PatternLayout>
+            <Policies>
+                <!-- 设置日志文件切分参数 -->
+                <!--<OnStartupTriggeringPolicy/>-->
+                <!--设置日志基础文件大小,超过该大小就触发日志文件滚动更新-->
+                <SizeBasedTriggeringPolicy size="${MAX_SIZE}"/>
+                <!--设置日志文件滚动更新的时间，依赖于文件命名filePattern的设置-->
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+            <!-- 设置日志的文件个数上限,不设置默认为7个,超过大小后会被覆盖;依赖于filePattern中的%i -->
+            <DefaultRolloverStrategy max="${FILE_SIZE}"/>
+        </RollingRandomAccessFile>
+
+
+        <!-- Async Loggers(异步记录器)会自动批量刷新,所以关闭immediateFlush(立即刷盘),
+         fileName表示使用异步记录器生成的日志文件名称,append表示是否追加日志信息 -->
+        <RandomAccessFile name="randomAccessFile"
+                          fileName="${LOG_HOME}/async-${date:yyyy-MM-dd}.log"
+                          immediateFlush="false"
+                          append="true">
+            <PatternLayout>
+                <Pattern>%d %p %c{1.} [%t] %m %ex%n</Pattern>
+            </PatternLayout>
+        </RandomAccessFile>
+
+    </Appenders>
+
+    <Loggers>
+
+        <!-- 异步记录器。
+            优点:异步记录器能提供更高的峰值吞吐量和性能,能大大降低日志记录响应时间延迟。
+            缺点:
+             (1).在发生错误时,异步记录器或附加程序可能无法向应用程序发出问题的信息。
+             (2).在CPU资源有限的情况下,可能会影响到其他线程。
+         -->
+        <AsyncLogger name="com.fly" level="DEBUG" includeLocation="false">
+            <AppenderRef ref="randomAccessFile"/>
+            <!-- 引用控制台附加器 -->
+            <AppenderRef ref="consoleAppender"/>
+            <!-- 引用文件附加器,处理任意级别的日志 -->
+            <AppenderRef ref="fileAppender"/>
+        </AsyncLogger>
+
+        <!-- 同步记录器 -->
+        <Root level="DEBUG" includeLocation="true">
+            <!-- 引用控制台附加器 -->
+            <!--            <AppenderRef ref="consoleAppender"/>-->
+            <!-- 引用文件附加器,处理任意级别的日志 -->
+            <AppenderRef ref="fileAppender"/>
+
+            <!-- 引用debug级别文件附加器,处理debug级别日志 -->
+            <AppenderRef ref="debugFileAppender" level="DEBUG"/>
+            <!-- 引用info级别文件附加器,处理info级别日志 -->
+            <AppenderRef ref="infoFileAppender" level="INFO"/>
+            <!-- 引用warn级别文件附加器,处理warn级别日志 -->
+            <AppenderRef ref="warnFileAppender" level="WARN"/>
+            <!-- 引用error级别文件附加器,处理error级别日志 -->
+            <AppenderRef ref="errorFileAppender" level="ERROR"/>
+            <!-- 引用fatal级别文件附加器,处理fatal级别日志 -->
+            <AppenderRef ref="fatalFileAppender" level="FATAL"/>
+        </Root>
+    </Loggers>
+</Configuration>

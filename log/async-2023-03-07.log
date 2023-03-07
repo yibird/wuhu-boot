@@ -1,0 +1,75 @@
+2023-03-07 14:15:38,506 INFO c.f.ServerApplication [main] Starting ServerApplication using Java 19.0.1 with PID 27192 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot) 
+2023-03-07 14:15:38,519 DEBUG c.f.ServerApplication [main] Running with Spring Boot v3.0.2, Spring v6.0.4 
+2023-03-07 14:15:38,520 INFO c.f.ServerApplication [main] The following 1 profile is active: "dev" 
+2023-03-07 14:15:39,407 INFO c.f.ServerApplication [main] Started ServerApplication in 1.199 seconds (process running for 1.84) 
+2023-03-07 14:15:39,409 INFO c.f.ServerApplication [main] Wuhu-boot Start successfully 
+2023-03-07 14:16:00,744 INFO c.f.ServerApplication [main] Starting ServerApplication using Java 19.0.1 with PID 18972 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot) 
+2023-03-07 14:16:00,750 DEBUG c.f.ServerApplication [main] Running with Spring Boot v3.0.2, Spring v6.0.4 
+2023-03-07 14:16:00,751 INFO c.f.ServerApplication [main] The following 1 profile is active: "dev" 
+2023-03-07 14:16:01,584 INFO c.f.ServerApplication [main] Started ServerApplication in 1.113 seconds (process running for 1.752) 
+2023-03-07 14:16:01,586 INFO c.f.ServerApplication [main] Wuhu-boot Start successfully 
+2023-03-07 14:16:11,748 INFO c.f.ServerApplication [main] Starting ServerApplication using Java 19.0.1 with PID 29300 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot) 
+2023-03-07 14:16:11,754 DEBUG c.f.ServerApplication [main] Running with Spring Boot v3.0.2, Spring v6.0.4 
+2023-03-07 14:16:11,755 INFO c.f.ServerApplication [main] The following 1 profile is active: "dev" 
+2023-03-07 14:16:12,614 INFO c.f.ServerApplication [main] Started ServerApplication in 1.136 seconds (process running for 1.782) 
+2023-03-07 14:16:12,615 INFO c.f.ServerApplication [main] Wuhu-boot Start successfully 
+2023-03-07 14:21:34,931 INFO c.f.ServerApplication [main] Starting ServerApplication using Java 19.0.1 with PID 13460 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot) 
+2023-03-07 14:21:34,935 DEBUG c.f.ServerApplication [main] Running with Spring Boot v3.0.2, Spring v6.0.4 
+2023-03-07 14:21:34,936 INFO c.f.ServerApplication [main] The following 1 profile is active: "dev" 
+2023-03-07 14:21:35,799 INFO c.f.ServerApplication [main] Started ServerApplication in 1.153 seconds (process running for 1.978) 
+2023-03-07 14:21:35,801 INFO c.f.ServerApplication [main] Wuhu-boot Start successfully 
+2023-03-07 14:22:46,917 INFO c.f.ServerApplication [main] Starting ServerApplication using Java 19.0.1 with PID 29300 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot) 
+2023-03-07 14:22:46,921 DEBUG c.f.ServerApplication [main] Running with Spring Boot v3.0.2, Spring v6.0.4 
+2023-03-07 14:22:46,921 INFO c.f.ServerApplication [main] The following 1 profile is active: "dev" 
+2023-03-07 14:22:50,171 INFO c.f.ServerApplication [main] Started ServerApplication in 3.612 seconds (process running for 4.45) 
+2023-03-07 14:22:50,173 INFO c.f.ServerApplication [main] Wuhu-boot Start successfully... 
+2023-03-07 14:24:23,064 INFO c.f.ServerApplication [main] Starting ServerApplication using Java 19.0.1 with PID 15276 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot) 
+2023-03-07 14:24:23,068 DEBUG c.f.ServerApplication [main] Running with Spring Boot v3.0.2, Spring v6.0.4 
+2023-03-07 14:24:23,068 INFO c.f.ServerApplication [main] The following 1 profile is active: "dev" 
+2023-03-07 14:24:25,951 INFO c.f.ServerApplication [main] Started ServerApplication in 3.242 seconds (process running for 4.034) 
+2023-03-07 14:24:25,952 INFO c.f.ServerApplication [main] Wuhu-boot Start successfully... 
+2023-03-07 14:25:23,492 INFO c.f.ServerApplication [main] Starting ServerApplication using Java 19.0.1 with PID 15264 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot) 
+2023-03-07 14:25:23,496 DEBUG c.f.ServerApplication [main] Running with Spring Boot v3.0.2, Spring v6.0.4 
+2023-03-07 14:25:23,496 INFO c.f.ServerApplication [main] The following 1 profile is active: "dev" 
+2023-03-07 14:25:26,619 INFO c.f.ServerApplication [main] Started ServerApplication in 3.487 seconds (process running for 4.26) 
+2023-03-07 14:25:26,620 INFO c.f.ServerApplication [main] Wuhu-boot Start successfully... 
+2023-03-07 14:26:04,758 INFO c.f.ServerApplication [main] Starting ServerApplication using Java 19.0.1 with PID 11752 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot) 
+2023-03-07 14:26:04,762 DEBUG c.f.ServerApplication [main] Running with Spring Boot v3.0.2, Spring v6.0.4 
+2023-03-07 14:26:04,763 INFO c.f.ServerApplication [main] The following 1 profile is active: "dev" 
+2023-03-07 14:26:07,811 INFO c.f.ServerApplication [main] Started ServerApplication in 3.401 seconds (process running for 4.167) 
+2023-03-07 14:26:07,813 INFO c.f.ServerApplication [main] Wuhu-boot Start successfully... 
+2023-03-07 14:28:15,607 INFO c.f.ServerApplication [main] Starting ServerApplication using Java 19.0.1 with PID 19480 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot) 
+2023-03-07 14:28:15,610 DEBUG c.f.ServerApplication [main] Running with Spring Boot v3.0.2, Spring v6.0.4 
+2023-03-07 14:28:15,611 INFO c.f.ServerApplication [main] The following 1 profile is active: "dev" 
+2023-03-07 14:28:18,611 INFO c.f.ServerApplication [main] Started ServerApplication in 3.359 seconds (process running for 4.136) 
+2023-03-07 14:28:18,613 INFO c.f.ServerApplication [main] Wuhu-boot Start successfully... 
+2023-03-07 14:29:05,356 INFO c.f.ServerApplication [main] Starting ServerApplication using Java 19.0.1 with PID 30940 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot) 
+2023-03-07 14:29:05,359 DEBUG c.f.ServerApplication [main] Running with Spring Boot v3.0.2, Spring v6.0.4 
+2023-03-07 14:29:05,360 INFO c.f.ServerApplication [main] The following 1 profile is active: "dev" 
+2023-03-07 14:29:08,548 INFO c.f.ServerApplication [main] Started ServerApplication in 3.593 seconds (process running for 4.433) 
+2023-03-07 14:29:08,550 INFO c.f.ServerApplication [main] Wuhu-boot Start successfully... 
+2023-03-07 14:29:35,839 INFO c.f.ServerApplication [main] Starting ServerApplication using Java 19.0.1 with PID 27864 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot) 
+2023-03-07 14:29:35,843 DEBUG c.f.ServerApplication [main] Running with Spring Boot v3.0.2, Spring v6.0.4 
+2023-03-07 14:29:35,843 INFO c.f.ServerApplication [main] The following 1 profile is active: "dev" 
+2023-03-07 14:29:38,844 INFO c.f.ServerApplication [main] Started ServerApplication in 3.357 seconds (process running for 4.14) 
+2023-03-07 14:29:38,846 INFO c.f.ServerApplication [main] Wuhu-boot Start successfully... 
+2023-03-07 14:30:01,971 INFO c.f.ServerApplication [main] Starting ServerApplication using Java 19.0.1 with PID 20040 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot) 
+2023-03-07 14:30:01,974 DEBUG c.f.ServerApplication [main] Running with Spring Boot v3.0.2, Spring v6.0.4 
+2023-03-07 14:30:01,975 INFO c.f.ServerApplication [main] The following 1 profile is active: "dev" 
+2023-03-07 14:30:05,027 INFO c.f.ServerApplication [main] Started ServerApplication in 3.403 seconds (process running for 4.168) 
+2023-03-07 14:30:05,029 INFO c.f.ServerApplication [main] Wuhu-boot Start successfully... 
+2023-03-07 14:30:37,693 INFO c.f.ServerApplication [main] Starting ServerApplication using Java 19.0.1 with PID 20956 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot) 
+2023-03-07 14:30:37,696 DEBUG c.f.ServerApplication [main] Running with Spring Boot v3.0.2, Spring v6.0.4 
+2023-03-07 14:30:37,697 INFO c.f.ServerApplication [main] The following 1 profile is active: "dev" 
+2023-03-07 14:30:40,938 INFO c.f.ServerApplication [main] Started ServerApplication in 3.596 seconds (process running for 4.35) 
+2023-03-07 14:30:40,940 INFO c.f.ServerApplication [main] Wuhu-boot Start successfully... 
+2023-03-07 14:31:15,770 INFO c.f.ServerApplication [main] Starting ServerApplication using Java 19.0.1 with PID 24864 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot) 
+2023-03-07 14:31:15,773 DEBUG c.f.ServerApplication [main] Running with Spring Boot v3.0.2, Spring v6.0.4 
+2023-03-07 14:31:15,774 INFO c.f.ServerApplication [main] The following 1 profile is active: "dev" 
+2023-03-07 14:31:18,819 INFO c.f.ServerApplication [main] Started ServerApplication in 3.402 seconds (process running for 4.167) 
+2023-03-07 14:31:18,821 INFO c.f.ServerApplication [main] Wuhu-boot Start successfully... 
+2023-03-07 14:39:44,960 INFO c.f.ServerApplication [main] Starting ServerApplication using Java 19.0.1 with PID 11508 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot) 
+2023-03-07 14:39:44,964 DEBUG c.f.ServerApplication [main] Running with Spring Boot v3.0.2, Spring v6.0.4 
+2023-03-07 14:39:44,964 INFO c.f.ServerApplication [main] The following 1 profile is active: "dev" 
+2023-03-07 14:39:48,181 INFO c.f.ServerApplication [main] Started ServerApplication in 3.57 seconds (process running for 4.307) 
+2023-03-07 14:39:48,183 INFO c.f.ServerApplication [main] Wuhu-boot Start successfully... 

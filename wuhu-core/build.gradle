@@ -11,13 +11,10 @@ repositories {
 }
 
 dependencies {
-//    implementation "org.springframework.boot:spring-boot-starter-security"
+    api "org.springframework.boot:spring-boot-starter-security"
     api "org.springframework.boot:spring-boot-starter-validation"
     implementation "org.springframework.boot:spring-boot-starter-data-redis"
     api 'com.github.xiaoymin:knife4j-openapi3-jakarta-spring-boot-starter'
-
-//    api 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.2'
-//    api 'org.springdoc:springdoc-openapi-starter-webmvc-api:2.0.2'
 
     api 'jakarta.servlet:jakarta.servlet-api'
     api 'com.baomidou:mybatis-plus-boot-starter'

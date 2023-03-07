@@ -39,20 +39,26 @@ subprojects {
             }
         }
     }
+    configurations {
+        all {
+            exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
+        }
+    }
 
     // 依赖集合
     dependencies {
-        implementation 'org.springframework.boot:spring-boot-starter-web'
+        implementation "org.springframework.boot:spring-boot-starter-web"
+        implementation "org.springframework.boot:spring-boot-starter-log4j2"
+        implementation "com.lmax:disruptor"
         implementation 'org.springframework.boot:spring-boot-starter-test'
 
         compileOnly 'org.projectlombok:lombok'
         annotationProcessor 'org.projectlombok:lombok'
-
         implementation 'org.mapstruct:mapstruct'
         annotationProcessor 'org.mapstruct:mapstruct-processor'
 
-        testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-        testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+        testImplementation 'org.junit.jupiter:junit-jupiter-api'
+        testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
     }
 }
 

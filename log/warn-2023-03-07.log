@@ -1,0 +1,75 @@
+2023-03-07 14:22:49,160 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: ff70c6cc-c631-4ab9-9aac-560b94ce57a4
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-07 14:24:25,756 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 8633222b-bbc8-4705-b2e1-30f411e4c4f6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-07 14:25:25,657 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 3d4a50cb-28dc-4153-9940-f8b57b6bf13a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-07 14:26:06,808 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 09567d30-e0bf-490a-bfc6-b5bead9e6979
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-07 14:28:17,644 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 54585ffd-c407-4606-974e-6a498e2b6b4c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-07 14:29:07,550 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: d432a69d-17ea-4460-966c-8d1c5d5ddc34
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-07 14:29:37,882 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: a9b0ecec-5e76-48b4-a17d-95475486f242
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-07 14:30:04,020 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 63dfd977-af51-44a2-964b-ab2bf8c54d94
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-07 14:30:05,590 WARN org.springframework.core.LocalVariableTableParameterNameDiscoverer [http-nio-8080-exec-1] Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.fly.controller.SysRoleController
+2023-03-07 14:30:05,676 WARN org.springframework.core.LocalVariableTableParameterNameDiscoverer [http-nio-8080-exec-1] Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.fly.controller.SysPostController
+2023-03-07 14:30:05,685 WARN org.springframework.core.LocalVariableTableParameterNameDiscoverer [http-nio-8080-exec-1] Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.fly.controller.AuthController
+2023-03-07 14:30:39,951 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: a151c4b2-90f7-45ec-95f8-eb14cb472825
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-07 14:31:17,867 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: d5d5e235-7286-4dda-b79e-070f7153ad8e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-07 14:31:22,783 WARN org.springframework.core.LocalVariableTableParameterNameDiscoverer [http-nio-8080-exec-2] Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.fly.controller.SysRoleController
+2023-03-07 14:31:22,864 WARN org.springframework.core.LocalVariableTableParameterNameDiscoverer [http-nio-8080-exec-2] Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.fly.controller.SysPostController
+2023-03-07 14:31:22,874 WARN org.springframework.core.LocalVariableTableParameterNameDiscoverer [http-nio-8080-exec-2] Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.fly.controller.AuthController
+2023-03-07 14:39:47,051 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 72610fbc-40bf-4038-8904-cca399d38349
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-07 14:39:50,555 WARN org.springframework.core.LocalVariableTableParameterNameDiscoverer [http-nio-8080-exec-3] Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.fly.controller.SysRoleController
+2023-03-07 14:39:50,616 WARN org.springframework.core.LocalVariableTableParameterNameDiscoverer [http-nio-8080-exec-3] Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.fly.controller.SysPostController
+2023-03-07 14:39:50,624 WARN org.springframework.core.LocalVariableTableParameterNameDiscoverer [http-nio-8080-exec-3] Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.fly.controller.AuthController

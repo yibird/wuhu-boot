@@ -1,5 +1,6 @@
 ext {
     version = [
+            "junitVersion"    : "5.8.1",
             "mysqlVersion"    : "8.0.32",
             "mpVersion"       : "3.5.3.1",
             "hutoolVersion"   : "5.8.12",
@@ -12,9 +13,12 @@ ext {
             "okioVersion"     : "3.3.0",
             "jakartaVersion"  : "6.0.0",
             "ip2regionVersion": "2.7.0",
-            "caffeineVersion" : "3.1.4"
+            "caffeineVersion" : "3.1.4",
+            "disruptorVersion": "3.4.4"
     ]
     dependencies = [
+            "org.junit.jupiter:junit-jupiter-api"                             : "org.junit.jupiter:junit-jupiter-api:${version.junitVersion}",
+            "org.junit.jupiter:junit-jupiter-engine"                          : "org.junit.jupiter:junit-jupiter-engine:${version.junitVersion}",
             "com.mysql:mysql-connector-j"                                     : "com.mysql:mysql-connector-j:${version.mysqlVersion}",
             "mybatis-plus-boot-starter"                                       : "com.baomidou:mybatis-plus-boot-starter:${version.mpVersion}",
             "cn.hutool:hutool-all"                                            : "cn.hutool:hutool-all:${version.hutoolVersion}",
@@ -29,6 +33,7 @@ ext {
             "com.squareup.okio:okio"                                          : "com.squareup.okio:okio:${version.okioVersion}",
             "jakarta.servlet:jakarta.servlet-api"                             : "jakarta.servlet:jakarta.servlet-api:${version.jakartaVersion}",
             "org.lionsoul:ip2region"                                          : "org.lionsoul:ip2region:${version.ip2regionVersion}",
-            "com.github.ben-manes.caffeine:caffeine"                          : "com.github.ben-manes.caffeine:caffeine:${version.caffeineVersion}"
+            "com.github.ben-manes.caffeine:caffeine"                          : "com.github.ben-manes.caffeine:caffeine:${version.caffeineVersion}",
+            "com.lmax:disruptor"                                              : "com.lmax:disruptor:${version.disruptorVersion}"
     ]
 }
