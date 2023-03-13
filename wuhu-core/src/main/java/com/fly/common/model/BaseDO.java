@@ -1,5 +1,7 @@
 package com.fly.common.model;
 
+import com.baomidou.mybatisplus.annotation.FieldFill;
+import com.baomidou.mybatisplus.annotation.TableField;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -27,14 +29,18 @@ public class BaseDO {
     private Integer delFlag;
 
     @Schema(description = "创建人")
+    @TableField(fill = FieldFill.INSERT)
     private String createBy;
 
     @Schema(description = "创建时间")
+    @TableField(fill = FieldFill.INSERT)
     private Date createTime;
 
     @Schema(description = "修改人")
+    @TableField(fill = FieldFill.UPDATE)
     private String updateBy;
 
     @Schema(description = "修改时间")
+    @TableField(fill = FieldFill.UPDATE)
     private Date updateTime;
 }

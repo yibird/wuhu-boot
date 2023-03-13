@@ -1,52 +1,45 @@
 package com.fly.common.cache;
 
-import org.springframework.cache.Cache;
+import com.github.benmanes.caffeine.cache.Caffeine;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
 
-import java.util.concurrent.Callable;
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 /**
- * @Description 缓存管理器
+ * @Description CacheManager
  * @Author zchengfeng
- * @Date 2023/2/22 10:16
+ * @Date 2023/3/13 14:17
  */
-public class CacheManager implements Cache {
-    @Override
-    public String getName() {
-        return null;
+@Component
+public class CacheManager {
+
+    @Autowired
+    CaffeineCacheProperty caffeineCacheProperty;
+
+
+    public Cache caffeineCache() {
+        return new CaffeineCache(Caffeine.newBuilder()
+                .initialCapacity(caffeineCacheProperty.getInitialCapacity())
+                .maximumSize(caffeineCacheProperty.getMaximumSize())
+                .expireAfterAccess(caffeineCacheProperty.getExpireAfterAccess(), TimeUnit.MILLISECONDS)
+                .expireAfterWrite(caffeineCacheProperty.getExpireAfterWrite(), TimeUnit.MILLISECONDS)
+                .buildAsync()
+                .synchronous()
+        );
     }
 
-    @Override
-    public Object getNativeCache() {
-        return null;
+    public Cache redisCache() {
+        return new RedisCache();
     }
 
-    @Override
-    public ValueWrapper get(Object key) {
-        return null;
-    }
-
-    @Override
-    public <T> T get(Object key, Class<T> type) {
-        return null;
-    }
-
-    @Override
-    public <T> T get(Object key, Callable<T> valueLoader) {
-        return null;
-    }
-
-    @Override
-    public void put(Object key, Object value) {
-
-    }
-
-    @Override
-    public void evict(Object key) {
-
-    }
-
-    @Override
-    public void clear() {
-
+    @Bean
+    public Cache cache() {
+        return new MultipleCache.MultipleCacheBuilder()
+                .nextNode(caffeineCache())
+                .nextNode(redisCache())
+                .build();
     }
 }

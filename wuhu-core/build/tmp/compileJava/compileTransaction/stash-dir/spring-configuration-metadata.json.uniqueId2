@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "multiple-cache.caffeine",
+      "type": "com.fly.common.cache.CaffeineCacheProperty",
+      "sourceType": "com.fly.common.cache.CaffeineCacheProperty"
+    },
+    {
+      "name": "multiple-cache.redis",
+      "type": "com.fly.common.cache.RedisCacheProperty",
+      "sourceType": "com.fly.common.cache.RedisCacheProperty"
+    }
+  ],
+  "properties": [
+    {
+      "name": "multiple-cache.caffeine.expire-after-access",
+      "type": "java.lang.Integer",
+      "sourceType": "com.fly.common.cache.CaffeineCacheProperty",
+      "defaultValue": 100
+    },
+    {
+      "name": "multiple-cache.caffeine.expire-after-write",
+      "type": "java.lang.Long",
+      "sourceType": "com.fly.common.cache.CaffeineCacheProperty",
+      "defaultValue": 10000
+    },
+    {
+      "name": "multiple-cache.caffeine.initial-capacity",
+      "type": "java.lang.Integer",
+      "sourceType": "com.fly.common.cache.CaffeineCacheProperty",
+      "defaultValue": 100
+    },
+    {
+      "name": "multiple-cache.caffeine.maximum-size",
+      "type": "java.lang.Long",
+      "sourceType": "com.fly.common.cache.CaffeineCacheProperty",
+      "defaultValue": 1000
+    },
+    {
+      "name": "multiple-cache.caffeine.refresh-after-write",
+      "type": "java.lang.Long",
+      "sourceType": "com.fly.common.cache.CaffeineCacheProperty",
+      "defaultValue": 10000
+    }
+  ],
+  "hints": []
+}

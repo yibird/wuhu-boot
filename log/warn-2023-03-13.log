@@ -1,0 +1,246 @@
+2023-03-13 14:30:24,372 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'cacheManager' defined in class path resource [org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration; factoryMethodName=cacheManager; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.class]] for bean 'cacheManager' since there is already [Generic bean: class [com.fly.common.cache.CacheManager]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [C:\study\java\demo\wuhu-boot\wuhu-core\build\classes\java\main\com\fly\common\cache\CacheManager.class]] bound.
+2023-03-13 14:38:32,853 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'cacheManager' defined in class path resource [org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration; factoryMethodName=cacheManager; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.class]] for bean 'cacheManager' since there is already [Generic bean: class [com.fly.common.cache.CacheManager]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [C:\study\java\demo\wuhu-boot\wuhu-core\build\classes\java\main\com\fly\common\cache\CacheManager.class]] bound.
+2023-03-13 14:39:03,814 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'cacheManager' defined in class path resource [org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration; factoryMethodName=cacheManager; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.class]] for bean 'cacheManager' since there is already [Generic bean: class [com.fly.common.cache.CacheManager]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [C:\study\java\demo\wuhu-boot\wuhu-core\build\classes\java\main\com\fly\common\cache\CacheManager.class]] bound.
+2023-03-13 14:39:28,836 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'cacheManager' defined in class path resource [org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration; factoryMethodName=cacheManager; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.class]] for bean 'cacheManager' since there is already [Generic bean: class [com.fly.common.cache.CacheManager]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [C:\study\java\demo\wuhu-boot\wuhu-core\build\classes\java\main\com\fly\common\cache\CacheManager.class]] bound.
+2023-03-13 14:39:56,077 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'cacheManager' defined in class path resource [org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration; factoryMethodName=cacheManager; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.class]] for bean 'cacheManager' since there is already [Generic bean: class [com.fly.common.cache.CacheManager]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [C:\study\java\demo\wuhu-boot\wuhu-core\build\classes\java\main\com\fly\common\cache\CacheManager.class]] bound.
+2023-03-13 14:40:08,269 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'cacheManager' defined in class path resource [org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration; factoryMethodName=cacheManager; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.class]] for bean 'cacheManager' since there is already [Generic bean: class [com.fly.common.cache.CacheManager]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [C:\study\java\demo\wuhu-boot\wuhu-core\build\classes\java\main\com\fly\common\cache\CacheManager.class]] bound.
+2023-03-13 14:40:27,307 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'cacheManager' defined in class path resource [org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration; factoryMethodName=cacheManager; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.class]] for bean 'cacheManager' since there is already [Generic bean: class [com.fly.common.cache.CacheManager]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [C:\study\java\demo\wuhu-boot\wuhu-core\build\classes\java\main\com\fly\common\cache\CacheManager.class]] bound.
+2023-03-13 14:41:06,033 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: b1eccdd7-9d7a-4b96-86a7-ac79781335bd
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 14:41:32,050 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: f7bacf97-911a-4b24-93f5-84cdcc219aa7
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 14:44:07,947 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: f567734b-845c-492d-bbc6-5ca644928d7a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 14:44:59,611 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'cacheManager' defined in class path resource [org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration; factoryMethodName=cacheManager; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.class]] for bean 'cacheManager' since there is already [Generic bean: class [com.fly.common.cache.CacheManager]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [C:\study\java\demo\wuhu-boot\wuhu-core\build\classes\java\main\com\fly\common\cache\CacheManager.class]] bound.
+2023-03-13 15:37:02,553 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'redisCache' defined in class path resource [com/fly/common/cache/CacheConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=cacheConfig; factoryMethodName=redisCache; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/fly/common/cache/CacheConfig.class]] for bean 'redisCache' since there is already [Generic bean: class [com.fly.common.cache.RedisCache]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [C:\study\java\demo\wuhu-boot\wuhu-core\build\classes\java\main\com\fly\common\cache\RedisCache.class]] bound.
+2023-03-13 15:37:18,864 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'redisCache' defined in class path resource [com/fly/common/cache/CacheConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=cacheConfig; factoryMethodName=redisCache; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/fly/common/cache/CacheConfig.class]] for bean 'redisCache' since there is already [Generic bean: class [com.fly.common.cache.RedisCache]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [C:\study\java\demo\wuhu-boot\wuhu-core\build\classes\java\main\com\fly\common\cache\RedisCache.class]] bound.
+2023-03-13 15:37:25,727 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'redisCache' defined in class path resource [com/fly/common/cache/CacheConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=cacheConfig; factoryMethodName=redisCache; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/fly/common/cache/CacheConfig.class]] for bean 'redisCache' since there is already [Generic bean: class [com.fly.common.cache.RedisCache]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [C:\study\java\demo\wuhu-boot\wuhu-core\build\classes\java\main\com\fly\common\cache\RedisCache.class]] bound.
+2023-03-13 15:38:11,805 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 8a4eed48-ea50-4bf2-88c1-44a5c056bb60
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 15:38:35,553 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'redisCache' defined in class path resource [com/fly/common/cache/CacheConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=cacheConfig; factoryMethodName=redisCache; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/fly/common/cache/CacheConfig.class]] for bean 'redisCache' since there is already [Generic bean: class [com.fly.common.cache.RedisCache]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [C:\study\java\demo\wuhu-boot\wuhu-core\build\classes\java\main\com\fly\common\cache\RedisCache.class]] bound.
+2023-03-13 15:38:49,819 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: e3525cc5-bd1d-4394-ae1c-77ff64c65254
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 15:39:43,679 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 67e82a47-cdaf-4d43-8eab-6be1ab64443b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 16:24:39,392 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 5ec05a81-eaba-4ca2-b0e3-bb359b4bd15a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 17:09:25,173 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.fly.ServerApplication]
+2023-03-13 17:10:12,180 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.fly.ServerApplication]
+2023-03-13 17:10:55,131 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.fly.ServerApplication]
+2023-03-13 17:11:03,198 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.fly.ServerApplication]
+2023-03-13 17:11:19,423 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.fly.ServerApplication]
+2023-03-13 17:11:34,566 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.fly.ServerApplication]
+2023-03-13 17:11:52,448 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: f61f9847-bd5d-4c6b-97c3-6c4be29ef2f5
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 17:12:37,172 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.fly.ServerApplication]
+2023-03-13 17:12:48,586 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 762b3884-9178-4187-bb91-67a1789203ae
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 17:13:01,442 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: dc41087c-48c1-49c3-a50f-2cb04cda6352
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 17:13:33,124 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serverApplication': Unsatisfied dependency expressed through field 'cache': Error creating bean with name 'cache' defined in class path resource [com/fly/common/cache/CacheManager.class]: Failed to instantiate [com.fly.common.cache.Cache]: Factory method 'cache' threw exception with message: refreshAfterWrite requires a LoadingCache
+2023-03-13 17:13:58,393 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serverApplication': Unsatisfied dependency expressed through field 'cache': Error creating bean with name 'cache' defined in class path resource [com/fly/common/cache/CacheManager.class]: Failed to instantiate [com.fly.common.cache.Cache]: Factory method 'cache' threw exception with message: refreshAfterWrite requires a LoadingCache
+2023-03-13 17:14:18,035 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serverApplication': Unsatisfied dependency expressed through field 'cache': Error creating bean with name 'cache' defined in class path resource [com/fly/common/cache/CacheManager.class]: Failed to instantiate [com.fly.common.cache.Cache]: Factory method 'cache' threw exception with message: refreshAfterWrite requires a LoadingCache
+2023-03-13 17:14:35,445 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serverApplication': Unsatisfied dependency expressed through field 'cache': Error creating bean with name 'cache' defined in class path resource [com/fly/common/cache/CacheManager.class]: Failed to instantiate [com.fly.common.cache.Cache]: Factory method 'cache' threw exception with message: refreshAfterWrite requires a LoadingCache
+2023-03-13 17:15:04,519 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serverApplication': Unsatisfied dependency expressed through field 'cache': Error creating bean with name 'cache' defined in class path resource [com/fly/common/cache/CacheManager.class]: Failed to instantiate [com.fly.common.cache.Cache]: Factory method 'cache' threw exception with message: refreshAfterWrite requires a LoadingCache
+2023-03-13 17:16:29,886 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serverApplication': Unsatisfied dependency expressed through field 'cache': Error creating bean with name 'cache' defined in class path resource [com/fly/common/cache/CacheManager.class]: Failed to instantiate [com.fly.common.cache.Cache]: Factory method 'cache' threw exception with message: refreshAfterWrite requires a LoadingCache
+2023-03-13 17:16:44,212 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cache' defined in class path resource [com/fly/common/cache/CacheManager.class]: Failed to instantiate [com.fly.common.cache.Cache]: Factory method 'cache' threw exception with message: refreshAfterWrite requires a LoadingCache
+2023-03-13 17:17:27,654 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cache' defined in class path resource [com/fly/common/cache/CacheManager.class]: Failed to instantiate [com.fly.common.cache.Cache]: Factory method 'cache' threw exception with message: refreshAfterWrite requires a LoadingCache
+2023-03-13 17:17:43,490 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 2c1a694a-cc40-435e-aaf9-dc447eb10124
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 17:18:29,496 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cache' defined in class path resource [com/fly/common/cache/CacheManager.class]: Failed to instantiate [com.fly.common.cache.Cache]: Factory method 'cache' threw exception with message: refreshAfterWrite requires a LoadingCache
+2023-03-13 17:18:53,541 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 4d0f50d5-94c2-4c04-b339-3e9f59c418ff
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 17:19:23,007 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cache' defined in class path resource [com/fly/common/cache/CacheManager.class]: Failed to instantiate [com.fly.common.cache.Cache]: Factory method 'cache' threw exception with message: refreshAfterWrite requires a LoadingCache
+2023-03-13 17:19:48,943 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cache' defined in class path resource [com/fly/common/cache/CacheManager.class]: Failed to instantiate [com.fly.common.cache.Cache]: Factory method 'cache' threw exception with message: refreshAfterWrite requires a LoadingCache
+2023-03-13 17:20:06,349 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cache' defined in class path resource [com/fly/common/cache/CacheManager.class]: Failed to instantiate [com.fly.common.cache.Cache]: Factory method 'cache' threw exception with message: refreshAfterWrite requires a LoadingCache
+2023-03-13 17:20:25,759 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 620aed3b-8c26-412d-b9ba-efbf55a4c580
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 17:21:06,202 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 89c3129a-0be9-4be0-a99e-e68a7bb46af0
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 17:21:25,699 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 8f99acfe-c364-445e-90b9-6810ca50f6aa
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 17:21:40,275 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 27a0c3c8-27ff-4e6c-8257-34b40db42d9e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 17:21:54,240 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cache' defined in class path resource [com/fly/common/cache/CacheManager.class]: Failed to instantiate [com.fly.common.cache.Cache]: Factory method 'cache' threw exception with message: refreshAfterWrite requires a LoadingCache
+2023-03-13 17:22:11,168 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: febf6fec-389e-4c39-8d34-4775e22b6442
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 17:22:47,877 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: da8301ea-f77c-4cda-b801-87c2755d9135
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 17:25:32,493 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serverApplication': Unsatisfied dependency expressed through field 'cache': Error creating bean with name 'cache' defined in class path resource [com/fly/common/cache/CacheManager.class]: Failed to instantiate [com.fly.common.cache.Cache]: Factory method 'cache' threw exception with message: refreshAfterWrite requires a LoadingCache
+2023-03-13 17:26:35,326 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serverApplication': Unsatisfied dependency expressed through field 'cache': Error creating bean with name 'cache' defined in class path resource [com/fly/common/cache/CacheManager.class]: Failed to instantiate [com.fly.common.cache.Cache]: Factory method 'cache' threw exception with message: refreshAfterWrite requires a LoadingCache
+2023-03-13 17:26:53,081 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serverApplication': Unsatisfied dependency expressed through field 'cache': Error creating bean with name 'cache' defined in class path resource [com/fly/common/cache/CacheManager.class]: Failed to instantiate [com.fly.common.cache.Cache]: Factory method 'cache' threw exception with message: refreshAfterWrite requires a LoadingCache
+2023-03-13 17:28:25,430 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serverApplication': Unsatisfied dependency expressed through field 'cache': Error creating bean with name 'cache' defined in class path resource [com/fly/common/cache/CacheManager.class]: Failed to instantiate [com.fly.common.cache.Cache]: Factory method 'cache' threw exception with message: refreshAfterWrite requires a LoadingCache
+2023-03-13 17:28:44,833 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serverApplication': Unsatisfied dependency expressed through field 'cache': Error creating bean with name 'cache' defined in class path resource [com/fly/common/cache/CacheManager.class]: Failed to instantiate [com.fly.common.cache.Cache]: Factory method 'cache' threw exception with message: refreshAfterWrite requires a LoadingCache
+2023-03-13 17:29:29,114 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 7c241a33-1c14-42f6-8f57-78fecd6a880f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 17:29:49,221 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 70326ccf-7a26-4541-8ff6-d67d927f0547
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 17:38:28,177 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [com/fly/common/config/RedisConfiguration.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0: Error creating bean with name 'redisConnectionFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/redis/LettuceConnectionConfiguration.class]: Failed to instantiate [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory]: Factory method 'redisConnectionFactory' threw exception with message: org/apache/commons/pool2/impl/GenericObjectPoolConfig
+2023-03-13 17:40:49,354 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [com/fly/common/config/RedisConfiguration.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0: Error creating bean with name 'redisConnectionFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/redis/LettuceConnectionConfiguration.class]: Failed to instantiate [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory]: Factory method 'redisConnectionFactory' threw exception with message: org/apache/commons/pool2/impl/GenericObjectPoolConfig
+2023-03-13 17:41:09,121 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [com/fly/common/config/RedisConfiguration.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0: Error creating bean with name 'redisConnectionFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/redis/LettuceConnectionConfiguration.class]: Failed to instantiate [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory]: Factory method 'redisConnectionFactory' threw exception with message: org/apache/commons/pool2/impl/GenericObjectPoolConfig
+2023-03-13 17:41:28,145 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [com/fly/common/config/RedisConfiguration.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0: Error creating bean with name 'redisConnectionFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/redis/LettuceConnectionConfiguration.class]: Failed to instantiate [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory]: Factory method 'redisConnectionFactory' threw exception with message: org/apache/commons/pool2/impl/GenericObjectPoolConfig
+2023-03-13 17:41:38,131 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [com/fly/common/config/RedisConfiguration.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0: Error creating bean with name 'redisConnectionFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/redis/LettuceConnectionConfiguration.class]: Failed to instantiate [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory]: Factory method 'redisConnectionFactory' threw exception with message: org/apache/commons/pool2/impl/GenericObjectPoolConfig
+2023-03-13 17:41:48,941 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serverApplication': Unsatisfied dependency expressed through field 'cache': Error creating bean with name 'cache' defined in class path resource [com/fly/common/cache/CacheManager.class]: Unsatisfied dependency expressed through method 'cache' parameter 0: Error creating bean with name 'cache': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2023-03-13 17:42:17,260 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serverApplication': Unsatisfied dependency expressed through field 'cache': Error creating bean with name 'cache' defined in class path resource [com/fly/common/cache/CacheManager.class]: Unsatisfied dependency expressed through method 'cache' parameter 0: Error creating bean with name 'cache': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2023-03-13 17:42:41,809 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 2d8e3c90-198f-452e-af43-768fc674dad2
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 17:43:03,485 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [com/fly/common/config/RedisConfiguration.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0: Error creating bean with name 'redisConnectionFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/redis/LettuceConnectionConfiguration.class]: Failed to instantiate [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory]: Factory method 'redisConnectionFactory' threw exception with message: org/apache/commons/pool2/impl/GenericObjectPoolConfig
+2023-03-13 17:43:11,855 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [com/fly/common/config/RedisConfiguration.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0: Error creating bean with name 'redisConnectionFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/redis/LettuceConnectionConfiguration.class]: Failed to instantiate [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory]: Factory method 'redisConnectionFactory' threw exception with message: org/apache/commons/pool2/impl/GenericObjectPoolConfig
+2023-03-13 17:43:30,710 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [com/fly/common/config/RedisConfiguration.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0: Error creating bean with name 'redisConnectionFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/redis/LettuceConnectionConfiguration.class]: Failed to instantiate [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory]: Factory method 'redisConnectionFactory' threw exception with message: org/apache/commons/pool2/impl/GenericObjectPoolConfig
+2023-03-13 17:44:28,329 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: a468bc72-61f1-43cc-9e3c-83e33a28df8e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 17:44:46,641 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: bdaa5fbc-ffad-49bb-b6c8-3b8a9c864358
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 17:45:12,193 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 6b1a443b-a2d3-40ac-927e-0bdd813080aa
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 17:45:13,167 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-03-13 17:46:04,854 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: ea078513-cd8e-45e8-8481-a2e999ac5814
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 17:46:05,796 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-03-13 17:46:19,942 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 09499a40-7360-4b69-8232-ad341d84e918
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 17:46:50,832 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: ba50423b-8a52-48be-aa54-0141dc9ef6c3
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 17:47:34,834 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 8a6b594e-5093-4564-9984-17daef353648
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 17:47:35,774 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-03-13 17:48:23,337 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: de7b287e-b8c6-4e52-98af-6a0fa6ec2891
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 17:48:24,278 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-03-13 17:50:33,296 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 759075cf-595c-483b-8019-7693211ed5a9
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 17:50:44,687 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-03-13 18:03:10,638 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 84ff9f51-cb74-46e6-a379-ca6713fc4999
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 18:03:11,605 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-03-13 18:06:55,000 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: afdf5591-1148-4457-baf3-1a82a118a64e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-13 18:06:55,978 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'

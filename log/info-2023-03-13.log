@@ -1,0 +1,985 @@
+2023-03-13 14:30:23,567 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 14:30:23,607 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 33436 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 14:30:23,611 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 14:38:32,139 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 14:38:32,172 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 9328 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 14:38:32,176 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 14:39:03,107 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 14:39:03,140 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 7552 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 14:39:03,143 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 14:39:28,152 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 14:39:28,188 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 30480 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 14:39:28,191 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 14:39:55,389 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 14:39:55,422 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 27064 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 14:39:55,425 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 14:40:07,576 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 14:40:07,608 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 13832 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 14:40:07,612 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 14:40:26,618 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 14:40:26,655 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 21816 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 14:40:26,659 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 14:41:03,622 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 14:41:03,655 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 2828 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 14:41:03,659 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 14:41:04,368 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 14:41:04,371 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 14:41:04,406 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2023-03-13 14:41:05,073 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 14:41:05,084 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 14:41:05,085 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 14:41:05,086 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 14:41:05,178 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 14:41:05,179 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1482 ms
+2023-03-13 14:41:06,703 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@20518250, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7836c79, org.springframework.security.web.context.SecurityContextHolderFilter@76d0a290, org.springframework.security.web.header.HeaderWriterFilter@27bbe773, org.springframework.web.filter.CorsFilter@5ccc971e, org.springframework.security.web.csrf.CsrfFilter@6b71e98f, org.springframework.security.web.authentication.logout.LogoutFilter@efa04b5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4e614370, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1e1ea16d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28269c65, org.springframework.security.web.access.ExceptionTranslationFilter@48aaaed9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6549ce71]
+2023-03-13 14:41:07,042 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 14:41:07,059 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 14:41:07,070 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 3.776 seconds (process running for 4.538)
+2023-03-13 14:41:29,986 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 14:41:30,026 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 6880 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 14:41:30,029 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 14:41:30,673 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 14:41:30,676 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 14:41:30,699 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 14:41:31,269 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 14:41:31,278 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 14:41:31,279 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 14:41:31,279 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 14:41:31,367 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 14:41:31,367 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1308 ms
+2023-03-13 14:41:32,706 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@42805abe, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2e7517aa, org.springframework.security.web.context.SecurityContextHolderFilter@343727b5, org.springframework.security.web.header.HeaderWriterFilter@65e92505, org.springframework.web.filter.CorsFilter@152035eb, org.springframework.security.web.csrf.CsrfFilter@65b680b4, org.springframework.security.web.authentication.logout.LogoutFilter@6ba355e4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2954c429, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4a45ca1c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@76105ac0, org.springframework.security.web.access.ExceptionTranslationFilter@6da9541c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@64887fbc]
+2023-03-13 14:41:33,004 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 14:41:33,020 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 14:41:33,021 INFO com.fly.ServerApplication [main] Wuhu-boot Start successfully...,port:8080
+2023-03-13 14:41:33,033 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 3.361 seconds (process running for 4.14)
+2023-03-13 14:44:05,859 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 14:44:05,890 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 15528 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 14:44:05,894 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 14:44:06,554 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 14:44:06,557 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 14:44:06,582 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2023-03-13 14:44:07,164 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 14:44:07,173 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 14:44:07,175 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 14:44:07,175 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 14:44:07,262 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 14:44:07,262 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1337 ms
+2023-03-13 14:44:08,587 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@78ea700f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@cd93621, org.springframework.security.web.context.SecurityContextHolderFilter@6b15e68c, org.springframework.security.web.header.HeaderWriterFilter@1826475, org.springframework.web.filter.CorsFilter@3b1137b0, org.springframework.security.web.csrf.CsrfFilter@2173e4d5, org.springframework.security.web.authentication.logout.LogoutFilter@2553dcc0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@8dbf0f2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@59d0fac9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@21ba0d33, org.springframework.security.web.access.ExceptionTranslationFilter@541897c6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@344a065a]
+2023-03-13 14:44:08,882 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 14:44:08,897 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 14:44:08,898 INFO com.fly.ServerApplication [main] wuhu-boot-server Start successfully...,port:8080
+2023-03-13 14:44:08,908 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 3.37 seconds (process running for 4.096)
+2023-03-13 14:44:58,902 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 14:44:58,935 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 12780 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 14:44:58,939 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 15:37:02,040 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 15:37:02,072 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 15500 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 15:37:02,077 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 15:37:18,374 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 15:37:18,404 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 24648 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 15:37:18,408 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 15:37:25,232 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 15:37:25,265 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 31524 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 15:37:25,269 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 15:38:09,636 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 15:38:09,666 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 8284 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 15:38:09,671 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 15:38:10,353 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 15:38:10,356 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 15:38:10,379 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 15:38:10,967 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 15:38:10,978 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 15:38:10,979 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 15:38:10,980 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 15:38:11,076 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 15:38:11,077 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1374 ms
+2023-03-13 15:38:12,467 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@320ba79f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@333a2df2, org.springframework.security.web.context.SecurityContextHolderFilter@582ca1e2, org.springframework.security.web.header.HeaderWriterFilter@6ef61cd0, org.springframework.web.filter.CorsFilter@5ffdd510, org.springframework.security.web.csrf.CsrfFilter@116915f1, org.springframework.security.web.authentication.logout.LogoutFilter@42cf5a6f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@38093ffe, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4713b631, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@8c18bde, org.springframework.security.web.access.ExceptionTranslationFilter@3691d4da, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2e7517aa]
+2023-03-13 15:38:12,768 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 15:38:12,784 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 15:38:12,785 INFO com.fly.ServerApplication [main] wuhu-boot-server Start successfully...,port:8080
+2023-03-13 15:38:12,795 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 3.532 seconds (process running for 4.456)
+2023-03-13 15:38:35,066 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 15:38:35,097 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 19100 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 15:38:35,101 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 15:38:47,725 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 15:38:47,757 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 21204 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 15:38:47,761 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 15:38:48,423 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 15:38:48,426 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 15:38:48,449 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 15:38:49,015 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 15:38:49,024 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 15:38:49,025 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 15:38:49,025 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 15:38:49,109 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 15:38:49,109 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1311 ms
+2023-03-13 15:38:50,481 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@76e2a621, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@42805abe, org.springframework.security.web.context.SecurityContextHolderFilter@29394966, org.springframework.security.web.header.HeaderWriterFilter@2157889c, org.springframework.web.filter.CorsFilter@2e7517aa, org.springframework.security.web.csrf.CsrfFilter@7bfcc108, org.springframework.security.web.authentication.logout.LogoutFilter@1826475, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@18dafd3b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2954c429, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@152035eb, org.springframework.security.web.access.ExceptionTranslationFilter@1e1ea16d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2fa2143d]
+2023-03-13 15:38:50,780 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 15:38:50,795 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 15:38:50,796 INFO com.fly.ServerApplication [main] wuhu-boot-server Start successfully...,port:8080
+2023-03-13 15:38:50,806 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 3.391 seconds (process running for 4.116)
+2023-03-13 15:39:41,579 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 15:39:41,610 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 26128 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 15:39:41,614 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 15:39:42,285 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 15:39:42,288 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 15:39:42,311 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2023-03-13 15:39:42,879 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 15:39:42,888 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 15:39:42,890 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 15:39:42,890 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 15:39:42,976 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 15:39:42,976 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1331 ms
+2023-03-13 15:39:44,325 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@21ba0d33, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@afb7b03, org.springframework.security.web.context.SecurityContextHolderFilter@59d0fac9, org.springframework.security.web.header.HeaderWriterFilter@6b15e68c, org.springframework.web.filter.CorsFilter@4fd63c43, org.springframework.security.web.csrf.CsrfFilter@66226ab, org.springframework.security.web.authentication.logout.LogoutFilter@37665305, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@50ecef36, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@767d9b9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7d483ebe, org.springframework.security.web.access.ExceptionTranslationFilter@6ba355e4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6d9ee75a]
+2023-03-13 15:39:44,637 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 15:39:44,652 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 15:39:44,654 INFO com.fly.ServerApplication [main] wuhu-boot-server Start successfully,port:8080
+2023-03-13 15:39:44,663 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 3.476 seconds (process running for 4.34)
+2023-03-13 16:24:37,319 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 16:24:37,350 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 8212 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 16:24:37,354 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 16:24:38,027 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 16:24:38,029 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 16:24:38,052 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 16:24:38,620 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 16:24:38,630 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 16:24:38,631 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 16:24:38,632 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 16:24:38,716 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 16:24:38,717 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1328 ms
+2023-03-13 16:24:40,050 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2befb16f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3151277f, org.springframework.security.web.context.SecurityContextHolderFilter@75da2db, org.springframework.security.web.header.HeaderWriterFilter@13c81bc5, org.springframework.web.filter.CorsFilter@2aeb7c4c, org.springframework.security.web.csrf.CsrfFilter@83e5898, org.springframework.security.web.authentication.logout.LogoutFilter@5111f814, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3ad558bf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1826475, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@67f266bd, org.springframework.security.web.access.ExceptionTranslationFilter@efa04b5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@320ba79f]
+2023-03-13 16:24:40,348 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 16:24:40,363 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 16:24:40,364 INFO com.fly.ServerApplication [main] wuhu-boot-server Start successfully,port:8080
+2023-03-13 16:24:40,374 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 3.451 seconds (process running for 4.331)
+2023-03-13 17:09:24,969 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:09:25,001 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 27268 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:09:25,006 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:10:11,990 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:10:12,020 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 16748 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:10:12,024 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:10:54,928 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:10:54,964 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 27652 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:10:54,968 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:11:02,997 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:11:03,029 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 1420 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:11:03,033 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:11:19,234 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:11:19,264 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 8888 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:11:19,268 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:11:34,372 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:11:34,405 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 32904 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:11:34,409 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:11:50,368 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:11:50,400 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 25592 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:11:50,404 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:11:51,066 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:11:51,068 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:11:51,092 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:11:51,659 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:11:51,668 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:11:51,670 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:11:51,670 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:11:51,755 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:11:51,755 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1318 ms
+2023-03-13 17:11:53,111 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@cd93621, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3b1137b0, org.springframework.security.web.context.SecurityContextHolderFilter@79a68657, org.springframework.security.web.header.HeaderWriterFilter@6ba355e4, org.springframework.web.filter.CorsFilter@21ba0d33, org.springframework.security.web.csrf.CsrfFilter@197cc325, org.springframework.security.web.authentication.logout.LogoutFilter@2e91cf69, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@59d0fac9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1d3546f9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@afb7b03, org.springframework.security.web.access.ExceptionTranslationFilter@3ad558bf, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3051e476]
+2023-03-13 17:11:53,408 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:11:53,424 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 17:11:53,425 INFO com.fly.ServerApplication [main] wuhu-boot-server start successfully,port:8080
+2023-03-13 17:11:53,435 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 3.435 seconds (process running for 4.326)
+2023-03-13 17:12:36,978 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:12:37,008 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 22496 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:12:37,012 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:12:46,508 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:12:46,539 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 31948 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:12:46,543 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:12:47,206 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:12:47,209 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:12:47,232 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:12:47,787 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:12:47,796 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:12:47,798 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:12:47,798 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:12:47,884 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:12:47,884 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1306 ms
+2023-03-13 17:12:49,260 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@23d23d98, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1fd35a92, org.springframework.security.web.context.SecurityContextHolderFilter@59282dc6, org.springframework.security.web.header.HeaderWriterFilter@767d9b9, org.springframework.web.filter.CorsFilter@40db6136, org.springframework.security.web.csrf.CsrfFilter@46b2a11a, org.springframework.security.web.authentication.logout.LogoutFilter@6a5c2d2d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42cf5a6f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7b2f8152, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5ced0537, org.springframework.security.web.access.ExceptionTranslationFilter@1d3546f9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@67f266bd]
+2023-03-13 17:12:49,569 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:12:49,585 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 17:12:49,586 INFO com.fly.ServerApplication [main] wuhu-boot-server start successfully,port:8080
+2023-03-13 17:12:49,595 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 3.438 seconds (process running for 4.389)
+2023-03-13 17:12:59,364 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:12:59,397 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 13500 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:12:59,401 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:13:00,065 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:13:00,067 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:13:00,090 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:13:00,648 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:13:00,657 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:13:00,659 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:13:00,659 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:13:00,745 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:13:00,745 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1308 ms
+2023-03-13 17:13:02,093 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3151277f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2aeb7c4c, org.springframework.security.web.context.SecurityContextHolderFilter@541897c6, org.springframework.security.web.header.HeaderWriterFilter@5617168c, org.springframework.web.filter.CorsFilter@67f266bd, org.springframework.security.web.csrf.CsrfFilter@7c4a03a, org.springframework.security.web.authentication.logout.LogoutFilter@71eafb64, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1826475, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ba355e4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@31c0c7e5, org.springframework.security.web.access.ExceptionTranslationFilter@a80a896, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@333a2df2]
+2023-03-13 17:13:02,397 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:13:02,413 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 17:13:02,414 INFO com.fly.ServerApplication [main] wuhu-boot-server start successfully,port:8080
+2023-03-13 17:13:02,425 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 3.389 seconds (process running for 4.3)
+2023-03-13 17:13:31,621 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:13:31,658 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 22084 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:13:31,661 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:13:32,334 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:13:32,337 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:13:32,361 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:13:32,917 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:13:32,926 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:13:32,928 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:13:32,928 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:13:33,057 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:13:33,057 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1359 ms
+2023-03-13 17:13:33,126 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:13:56,921 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:13:56,953 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 31816 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:13:56,957 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:13:57,614 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:13:57,616 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:13:57,640 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:13:58,224 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:13:58,233 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:13:58,234 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:13:58,235 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:13:58,324 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:13:58,325 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1338 ms
+2023-03-13 17:13:58,395 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:14:16,576 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:14:16,613 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 5668 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:14:16,616 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:14:17,295 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:14:17,298 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:14:17,321 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:14:17,874 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:14:17,883 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:14:17,884 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:14:17,885 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:14:17,969 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:14:17,969 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1316 ms
+2023-03-13 17:14:18,037 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:14:33,957 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:14:33,988 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 24740 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:14:33,992 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:14:34,670 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:14:34,673 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:14:34,696 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:14:35,280 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:14:35,289 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:14:35,290 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:14:35,290 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:14:35,378 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:14:35,378 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1353 ms
+2023-03-13 17:14:35,447 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:15:03,055 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:15:03,086 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 9440 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:15:03,089 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:15:03,743 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:15:03,746 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:15:03,769 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:15:04,351 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:15:04,361 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:15:04,363 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:15:04,364 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:15:04,450 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:15:04,450 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1330 ms
+2023-03-13 17:15:04,521 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:16:28,440 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:16:28,470 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 33368 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:16:28,474 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:16:29,137 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:16:29,139 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:16:29,162 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:16:29,722 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:16:29,732 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:16:29,733 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:16:29,733 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:16:29,818 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:16:29,818 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1313 ms
+2023-03-13 17:16:29,888 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:16:42,455 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:16:42,488 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 23276 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:16:42,492 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:16:43,161 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:16:43,164 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:16:43,187 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:16:43,753 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:16:43,761 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:16:43,763 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:16:43,763 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:16:43,848 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:16:43,848 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1320 ms
+2023-03-13 17:16:44,214 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:17:25,885 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:17:25,918 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 15528 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:17:25,923 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:17:26,600 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:17:26,603 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:17:26,626 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:17:27,190 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:17:27,199 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:17:27,200 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:17:27,201 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:17:27,287 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:17:27,288 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1325 ms
+2023-03-13 17:17:27,656 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:17:41,357 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:17:41,390 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 13420 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:17:41,395 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:17:42,114 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:17:42,117 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:17:42,141 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:17:42,713 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:17:42,722 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:17:42,723 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:17:42,724 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:17:42,808 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:17:42,808 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1373 ms
+2023-03-13 17:17:44,136 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2befb16f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3151277f, org.springframework.security.web.context.SecurityContextHolderFilter@5cf33d25, org.springframework.security.web.header.HeaderWriterFilter@50d05167, org.springframework.web.filter.CorsFilter@2aeb7c4c, org.springframework.security.web.csrf.CsrfFilter@29394966, org.springframework.security.web.authentication.logout.LogoutFilter@2e4d2232, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@a80a896, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@13c81bc5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@67f266bd, org.springframework.security.web.access.ExceptionTranslationFilter@46b2a11a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@320ba79f]
+2023-03-13 17:17:44,454 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:17:44,469 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 17:17:44,470 INFO com.fly.ServerApplication [main] wuhu-boot-server start successfully,port:8080
+2023-03-13 17:17:44,480 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 3.444 seconds (process running for 4.182)
+2023-03-13 17:18:27,735 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:18:27,767 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 25952 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:18:27,771 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:18:28,440 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:18:28,443 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:18:28,466 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:18:29,030 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:18:29,040 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:18:29,041 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:18:29,042 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:18:29,127 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:18:29,127 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1319 ms
+2023-03-13 17:18:29,498 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:18:51,461 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:18:51,494 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 30348 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:18:51,498 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:18:52,165 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:18:52,167 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:18:52,190 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:18:52,752 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:18:52,763 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:18:52,765 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:18:52,765 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:18:52,855 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:18:52,855 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1321 ms
+2023-03-13 17:18:54,194 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@333a2df2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5ffdd510, org.springframework.security.web.context.SecurityContextHolderFilter@66226ab, org.springframework.security.web.header.HeaderWriterFilter@2173e4d5, org.springframework.web.filter.CorsFilter@8c18bde, org.springframework.security.web.csrf.CsrfFilter@27bbe773, org.springframework.security.web.authentication.logout.LogoutFilter@7b2f8152, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4713b631, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7a0d2c80, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6719f206, org.springframework.security.web.access.ExceptionTranslationFilter@4c91a008, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@152035eb]
+2023-03-13 17:18:54,503 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:18:54,519 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 17:18:54,519 INFO com.fly.ServerApplication [main] wuhu-boot-server start successfully,port:8080
+2023-03-13 17:18:54,529 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 3.442 seconds (process running for 4.339)
+2023-03-13 17:19:21,259 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:19:21,296 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 2232 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:19:21,300 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:19:21,970 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:19:21,973 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:19:21,996 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:19:22,552 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:19:22,561 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:19:22,562 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:19:22,562 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:19:22,644 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:19:22,644 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1313 ms
+2023-03-13 17:19:23,009 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:19:47,149 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:19:47,181 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 22156 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:19:47,185 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:19:47,857 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:19:47,861 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:19:47,893 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:19:48,470 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:19:48,479 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:19:48,480 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:19:48,480 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:19:48,566 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:19:48,566 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1343 ms
+2023-03-13 17:19:48,945 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:20:04,546 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:20:04,578 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 33736 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:20:04,582 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:20:05,248 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:20:05,251 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:20:05,275 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:20:05,890 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:20:05,899 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:20:05,900 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:20:05,901 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:20:05,985 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:20:05,985 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1371 ms
+2023-03-13 17:20:06,351 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:20:23,665 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:20:23,701 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 8940 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:20:23,705 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:20:24,364 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:20:24,367 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:20:24,389 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:20:24,952 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:20:24,961 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:20:24,962 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:20:24,963 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:20:25,048 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:20:25,048 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1313 ms
+2023-03-13 17:20:26,402 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@468f2a6f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6a3a56de, org.springframework.security.web.context.SecurityContextHolderFilter@746e534, org.springframework.security.web.header.HeaderWriterFilter@ae74eef, org.springframework.web.filter.CorsFilter@2ed84be9, org.springframework.security.web.csrf.CsrfFilter@42cf5a6f, org.springframework.security.web.authentication.logout.LogoutFilter@6dc2e473, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@c683cf5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2c224096, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@400e741, org.springframework.security.web.access.ExceptionTranslationFilter@727f36dd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@141a10bf]
+2023-03-13 17:20:26,706 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:20:26,722 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 17:20:26,723 INFO com.fly.ServerApplication [main] wuhu-boot-server start successfully,port:8080
+2023-03-13 17:20:26,732 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 3.382 seconds (process running for 4.149)
+2023-03-13 17:21:04,119 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:21:04,150 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 5096 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:21:04,154 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:21:04,813 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:21:04,816 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:21:04,838 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:21:05,399 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:21:05,408 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:21:05,410 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:21:05,410 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:21:05,496 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:21:05,496 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1310 ms
+2023-03-13 17:21:06,839 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6ad198c9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@481bae3f, org.springframework.security.web.context.SecurityContextHolderFilter@9a07409, org.springframework.security.web.header.HeaderWriterFilter@5065bdac, org.springframework.web.filter.CorsFilter@6a54aa7a, org.springframework.security.web.csrf.CsrfFilter@37b80ec7, org.springframework.security.web.authentication.logout.LogoutFilter@5895c065, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@34e68840, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@510203de, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c114687, org.springframework.security.web.access.ExceptionTranslationFilter@1782896, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@14eb96e9]
+2023-03-13 17:21:07,138 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:21:07,153 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 17:21:07,154 INFO com.fly.ServerApplication [main] wuhu-boot-server start successfully,port:8080
+2023-03-13 17:21:07,163 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 3.358 seconds (process running for 4.078)
+2023-03-13 17:21:23,584 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:21:23,619 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 18404 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:21:23,624 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:21:24,292 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:21:24,295 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:21:24,318 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:21:24,890 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:21:24,899 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:21:24,900 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:21:24,900 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:21:24,987 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:21:24,987 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1330 ms
+2023-03-13 17:21:26,336 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@36349e29, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@183a508b, org.springframework.security.web.context.SecurityContextHolderFilter@477bea57, org.springframework.security.web.header.HeaderWriterFilter@5b0835cb, org.springframework.web.filter.CorsFilter@5aeebccc, org.springframework.security.web.csrf.CsrfFilter@468f2a6f, org.springframework.security.web.authentication.logout.LogoutFilter@565efd7d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4a9ff419, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7ca29311, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@14293540, org.springframework.security.web.access.ExceptionTranslationFilter@34e68840, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4cb773c5]
+2023-03-13 17:21:26,648 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:21:26,663 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 17:21:26,664 INFO com.fly.ServerApplication [main] wuhu-boot-server start successfully,port:8080
+2023-03-13 17:21:26,673 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 3.406 seconds (process running for 4.135)
+2023-03-13 17:21:38,188 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:21:38,224 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 33752 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:21:38,228 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:21:38,891 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:21:38,894 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:21:38,916 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:21:39,479 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:21:39,488 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:21:39,489 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:21:39,489 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:21:39,573 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:21:39,574 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1315 ms
+2023-03-13 17:21:40,911 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7057dbda, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@36349e29, org.springframework.security.web.context.SecurityContextHolderFilter@62615be, org.springframework.security.web.header.HeaderWriterFilter@510203de, org.springframework.web.filter.CorsFilter@183a508b, org.springframework.security.web.csrf.CsrfFilter@522f0bb8, org.springframework.security.web.authentication.logout.LogoutFilter@3731e8b6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5dc7391e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4a9ff419, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5aeebccc, org.springframework.security.web.access.ExceptionTranslationFilter@7455204c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@40277077]
+2023-03-13 17:21:41,209 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:21:41,224 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 17:21:41,225 INFO com.fly.ServerApplication [main] wuhu-boot-server start successfully,port:8080
+2023-03-13 17:21:41,234 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 3.356 seconds (process running for 4.082)
+2023-03-13 17:21:52,468 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:21:52,506 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 3692 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:21:52,510 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:21:53,176 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:21:53,179 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:21:53,201 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:21:53,774 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:21:53,783 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:21:53,784 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:21:53,784 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:21:53,870 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:21:53,870 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1326 ms
+2023-03-13 17:21:54,242 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:22:09,046 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:22:09,084 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 31616 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:22:09,088 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:22:09,756 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:22:09,759 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:22:09,781 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:22:10,354 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:22:10,363 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:22:10,364 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:22:10,365 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:22:10,452 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:22:10,452 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1334 ms
+2023-03-13 17:22:11,799 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@10b3ea72, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@44587c44, org.springframework.security.web.context.SecurityContextHolderFilter@2ed84be9, org.springframework.security.web.header.HeaderWriterFilter@522f0bb8, org.springframework.web.filter.CorsFilter@618fb1, org.springframework.security.web.csrf.CsrfFilter@77db231c, org.springframework.security.web.authentication.logout.LogoutFilter@1eb52131, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3be369fc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@35744f8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@48751d8a, org.springframework.security.web.access.ExceptionTranslationFilter@2431050d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@ff8e36d]
+2023-03-13 17:22:12,099 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:22:12,114 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 17:22:12,115 INFO com.fly.ServerApplication [main] wuhu-boot-server start successfully,port:8080
+2023-03-13 17:22:12,125 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 3.398 seconds (process running for 4.159)
+2023-03-13 17:22:45,743 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:22:45,782 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 27624 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:22:45,785 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:22:46,465 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:22:46,468 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:22:46,491 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:22:47,050 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:22:47,059 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:22:47,060 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:22:47,061 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:22:47,145 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:22:47,145 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1323 ms
+2023-03-13 17:22:48,523 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@618fb1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@48751d8a, org.springframework.security.web.context.SecurityContextHolderFilter@3be369fc, org.springframework.security.web.header.HeaderWriterFilter@6a3a56de, org.springframework.web.filter.CorsFilter@471a9e8c, org.springframework.security.web.csrf.CsrfFilter@6a3e633a, org.springframework.security.web.authentication.logout.LogoutFilter@67a3394c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6fbcc078, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6c851821, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@40277077, org.springframework.security.web.access.ExceptionTranslationFilter@522f0bb8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4f22fd5d]
+2023-03-13 17:22:48,827 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:22:48,842 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 17:22:48,843 INFO com.fly.ServerApplication [main] wuhu-boot-server start successfully,port:8080
+2023-03-13 17:22:48,869 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 3.467 seconds (process running for 4.383)
+2023-03-13 17:25:31,050 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:25:31,080 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 19520 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:25:31,084 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:25:31,755 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:25:31,757 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:25:31,780 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:25:32,331 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:25:32,340 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:25:32,341 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:25:32,341 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:25:32,426 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:25:32,426 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1312 ms
+2023-03-13 17:25:32,495 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:26:33,862 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:26:33,894 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 32056 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:26:33,898 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:26:34,569 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:26:34,572 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:26:34,595 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:26:35,164 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:26:35,173 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:26:35,174 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:26:35,174 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:26:35,257 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:26:35,258 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1325 ms
+2023-03-13 17:26:35,328 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:26:51,636 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:26:51,674 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 19060 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:26:51,677 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:26:52,329 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:26:52,331 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:26:52,354 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:26:52,913 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:26:52,923 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:26:52,924 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:26:52,924 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:26:53,012 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:26:53,012 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1304 ms
+2023-03-13 17:26:53,083 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:28:23,939 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:28:23,972 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 28048 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:28:23,976 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:28:24,670 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:28:24,672 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:28:24,696 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:28:25,268 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:28:25,276 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:28:25,277 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:28:25,277 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:28:25,362 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:28:25,362 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1348 ms
+2023-03-13 17:28:25,432 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:28:43,376 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:28:43,410 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 14416 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:28:43,414 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:28:44,091 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:28:44,094 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:28:44,117 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:28:44,671 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:28:44,679 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:28:44,681 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:28:44,681 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:28:44,766 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:28:44,766 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1311 ms
+2023-03-13 17:28:44,835 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:29:26,949 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:29:26,981 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 24748 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:29:26,986 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:29:27,671 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:29:27,674 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:29:27,698 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:29:28,264 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:29:28,272 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:29:28,274 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:29:28,274 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:29:28,359 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:29:28,360 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1335 ms
+2023-03-13 17:29:29,861 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@33b2ba25, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ad198c9, org.springframework.security.web.context.SecurityContextHolderFilter@3d7caf9c, org.springframework.security.web.header.HeaderWriterFilter@75c0cd39, org.springframework.web.filter.CorsFilter@481bae3f, org.springframework.security.web.csrf.CsrfFilter@1bf10539, org.springframework.security.web.authentication.logout.LogoutFilter@6705b763, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1782896, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@8bde368, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6a54aa7a, org.springframework.security.web.access.ExceptionTranslationFilter@6c851821, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@32cec678]
+2023-03-13 17:29:30,179 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:29:30,194 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 17:29:30,195 INFO com.fly.ServerApplication [main] wuhu-boot-server start successfully,port:8080
+2023-03-13 17:29:30,210 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 3.573 seconds (process running for 4.3)
+2023-03-13 17:29:46,887 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:29:46,920 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 32988 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:29:46,924 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:29:47,830 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:29:47,833 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:29:47,859 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:29:48,421 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:29:48,433 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:29:48,434 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:29:48,435 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:29:48,523 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:29:48,523 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1561 ms
+2023-03-13 17:29:49,874 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@32cec678, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@14eb96e9, org.springframework.security.web.context.SecurityContextHolderFilter@468f2a6f, org.springframework.security.web.header.HeaderWriterFilter@2431050d, org.springframework.web.filter.CorsFilter@10b3ea72, org.springframework.security.web.csrf.CsrfFilter@2435c6ae, org.springframework.security.web.authentication.logout.LogoutFilter@67a3dd86, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2ed84be9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@400e741, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@44587c44, org.springframework.security.web.access.ExceptionTranslationFilter@6f4f2cc0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@94aeba1]
+2023-03-13 17:29:50,185 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:29:50,202 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 17:29:50,203 INFO com.fly.ServerApplication [main] wuhu-boot-server start successfully,port:8080
+2023-03-13 17:29:50,220 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 3.69 seconds (process running for 4.664)
+2023-03-13 17:38:26,210 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:38:26,242 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 20136 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:38:26,246 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:38:26,928 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:38:26,930 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:38:26,953 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:38:27,520 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:38:27,530 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:38:27,531 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:38:27,532 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:38:27,616 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:38:27,616 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1331 ms
+2023-03-13 17:38:28,184 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:40:47,372 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:40:47,406 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 10228 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:40:47,410 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:40:48,086 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:40:48,089 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:40:48,112 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:40:48,696 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:40:48,705 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:40:48,706 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:40:48,707 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:40:48,793 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:40:48,794 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1347 ms
+2023-03-13 17:40:49,361 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:41:07,182 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:41:07,214 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 27756 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:41:07,217 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:41:07,880 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:41:07,882 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:41:07,906 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:41:08,477 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:41:08,486 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:41:08,488 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:41:08,488 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:41:08,575 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:41:08,575 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1326 ms
+2023-03-13 17:41:09,127 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:41:26,220 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:41:26,257 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 23660 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:41:26,260 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:41:26,914 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:41:26,916 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:41:26,939 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:41:27,498 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:41:27,508 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:41:27,509 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:41:27,509 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:41:27,595 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:41:27,596 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1303 ms
+2023-03-13 17:41:28,151 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:41:36,194 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:41:36,224 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 22644 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:41:36,228 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:41:36,908 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:41:36,911 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:41:36,932 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:41:37,489 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:41:37,499 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:41:37,500 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:41:37,500 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:41:37,587 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:41:37,587 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1328 ms
+2023-03-13 17:41:38,138 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:41:47,503 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:41:47,536 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 16420 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:41:47,540 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:41:48,206 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:41:48,208 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:41:48,232 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:41:48,784 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:41:48,792 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:41:48,794 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:41:48,794 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:41:48,878 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:41:48,878 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1301 ms
+2023-03-13 17:41:48,943 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:42:15,818 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:42:15,850 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 31996 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:42:15,854 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:42:16,516 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:42:16,519 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:42:16,542 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:42:17,099 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:42:17,108 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:42:17,109 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:42:17,110 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:42:17,196 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:42:17,196 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1305 ms
+2023-03-13 17:42:17,262 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:42:39,706 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:42:39,743 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 28936 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:42:39,746 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:42:40,405 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:42:40,407 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:42:40,430 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:42:40,999 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:42:41,008 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:42:41,009 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:42:41,010 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:42:41,096 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:42:41,097 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1320 ms
+2023-03-13 17:42:42,454 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@64e657b0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@50013a15, org.springframework.security.web.context.SecurityContextHolderFilter@3731e8b6, org.springframework.security.web.header.HeaderWriterFilter@79631db0, org.springframework.web.filter.CorsFilter@6c46dc02, org.springframework.security.web.csrf.CsrfFilter@2674ca88, org.springframework.security.web.authentication.logout.LogoutFilter@266a47fd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42a97053, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@bc4a9b0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5606d537, org.springframework.security.web.access.ExceptionTranslationFilter@683fac7e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@578d5d02]
+2023-03-13 17:42:42,759 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:42:42,774 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 17:42:42,775 INFO com.fly.ServerApplication [main] wuhu-boot-server start successfully,port:8080
+2023-03-13 17:42:42,789 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 3.399 seconds (process running for 4.147)
+2023-03-13 17:43:01,618 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:43:01,651 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 31880 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:43:01,655 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:43:02,318 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:43:02,321 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:43:02,343 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:43:02,904 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:43:02,913 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:43:02,914 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:43:02,914 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:43:02,999 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:43:03,000 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1306 ms
+2023-03-13 17:43:03,491 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:43:10,014 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:43:10,045 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 31136 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:43:10,049 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:43:10,701 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:43:10,703 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:43:10,726 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:43:11,277 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:43:11,285 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:43:11,287 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:43:11,287 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:43:11,373 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:43:11,373 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1294 ms
+2023-03-13 17:43:11,863 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:43:28,830 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:43:28,861 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 15056 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:43:28,866 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:43:29,535 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:43:29,537 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:43:29,560 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:43:30,113 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:43:30,123 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:43:30,124 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:43:30,125 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:43:30,211 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:43:30,211 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1310 ms
+2023-03-13 17:43:30,717 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:44:26,184 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:44:26,216 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 13948 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:44:26,220 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:44:26,892 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:44:26,895 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:44:26,919 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:44:27,503 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:44:27,512 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:44:27,514 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:44:27,514 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:44:27,599 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:44:27,599 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1343 ms
+2023-03-13 17:44:29,009 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@476a970c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ce57bbb, org.springframework.security.web.context.SecurityContextHolderFilter@22f057b4, org.springframework.security.web.header.HeaderWriterFilter@6ba226cd, org.springframework.web.filter.CorsFilter@34626d4, org.springframework.security.web.csrf.CsrfFilter@129c322f, org.springframework.security.web.authentication.logout.LogoutFilter@75dbe490, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@767b9d66, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@687fd6e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@15ee8861, org.springframework.security.web.access.ExceptionTranslationFilter@169d4aba, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2ae7c1d]
+2023-03-13 17:44:29,365 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:44:29,381 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 17:44:29,382 INFO com.fly.ServerApplication [main] wuhu-boot-server start successfully,port:8080
+2023-03-13 17:44:29,397 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 3.531 seconds (process running for 4.272)
+2023-03-13 17:44:44,523 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:44:44,560 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 27208 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:44:44,563 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:44:45,233 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:44:45,235 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:44:45,258 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:44:45,810 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:44:45,820 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:44:45,821 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:44:45,821 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:44:45,906 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:44:45,906 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1306 ms
+2023-03-13 17:44:47,282 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@16c9e378, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7d3815f7, org.springframework.security.web.context.SecurityContextHolderFilter@a97a895, org.springframework.security.web.header.HeaderWriterFilter@6d7677d8, org.springframework.web.filter.CorsFilter@b87ea8b, org.springframework.security.web.csrf.CsrfFilter@5b0835cb, org.springframework.security.web.authentication.logout.LogoutFilter@1ab21633, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1ef5cde4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@359fa722, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c79780, org.springframework.security.web.access.ExceptionTranslationFilter@5cb6abc8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@26be0d23]
+2023-03-13 17:44:47,594 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:44:47,609 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 17:44:47,610 INFO com.fly.ServerApplication [main] wuhu-boot-server start successfully,port:8080
+2023-03-13 17:44:47,623 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 3.45 seconds (process running for 4.366)
+2023-03-13 17:45:10,055 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:45:10,086 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 19100 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:45:10,090 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:45:10,780 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:45:10,782 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:45:10,806 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:45:11,376 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:45:11,385 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:45:11,387 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:45:11,387 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:45:11,474 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:45:11,474 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1346 ms
+2023-03-13 17:45:12,849 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@476a970c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ce57bbb, org.springframework.security.web.context.SecurityContextHolderFilter@22f057b4, org.springframework.security.web.header.HeaderWriterFilter@6ba226cd, org.springframework.web.filter.CorsFilter@34626d4, org.springframework.security.web.csrf.CsrfFilter@129c322f, org.springframework.security.web.authentication.logout.LogoutFilter@75dbe490, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@767b9d66, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@687fd6e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@15ee8861, org.springframework.security.web.access.ExceptionTranslationFilter@169d4aba, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2ae7c1d]
+2023-03-13 17:45:13,149 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:45:13,165 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 17:45:13,166 INFO com.fly.ServerApplication [main] wuhu-boot-server start successfully,port:8080
+2023-03-13 17:45:13,185 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:45:13,185 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:45:13,197 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:45:13,199 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:46:02,758 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:46:02,789 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 23872 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:46:02,794 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:46:03,463 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:46:03,466 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:46:03,489 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:46:04,042 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:46:04,051 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:46:04,052 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:46:04,052 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:46:04,137 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:46:04,137 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1312 ms
+2023-03-13 17:46:05,475 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@66fff42f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@308be1a3, org.springframework.security.web.context.SecurityContextHolderFilter@129c322f, org.springframework.security.web.header.HeaderWriterFilter@42a97053, org.springframework.web.filter.CorsFilter@32cde414, org.springframework.security.web.csrf.CsrfFilter@67a3394c, org.springframework.security.web.authentication.logout.LogoutFilter@796642ae, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@35995029, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@42474b18, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@e4bb10b, org.springframework.security.web.access.ExceptionTranslationFilter@3731e8b6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@594c66c3]
+2023-03-13 17:46:05,779 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:46:05,795 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 17:46:05,796 INFO com.fly.ServerApplication [main] wuhu-boot-server start successfully,port:8080
+2023-03-13 17:46:05,813 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:46:05,813 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:46:05,824 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:46:05,826 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:46:17,821 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:46:17,861 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 10056 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:46:17,864 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:46:18,531 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:46:18,534 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:46:18,557 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:46:19,122 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:46:19,132 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:46:19,133 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:46:19,133 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:46:19,221 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:46:19,221 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1327 ms
+2023-03-13 17:46:20,580 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@77f04d1a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@27682fa9, org.springframework.security.web.context.SecurityContextHolderFilter@4f98ac31, org.springframework.security.web.header.HeaderWriterFilter@34e4fb39, org.springframework.web.filter.CorsFilter@2fb70301, org.springframework.security.web.csrf.CsrfFilter@2e9dcdd3, org.springframework.security.web.authentication.logout.LogoutFilter@1e3dc24f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@20e48e63, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6d7677d8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@126f2eb8, org.springframework.security.web.access.ExceptionTranslationFilter@1e1598e5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@79fc4e99]
+2023-03-13 17:46:20,887 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:46:20,902 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 17:46:20,903 INFO com.fly.ServerApplication [main] wuhu-boot-server start successfully,port:8080
+2023-03-13 17:46:20,917 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 3.413 seconds (process running for 4.211)
+2023-03-13 17:46:48,720 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:46:48,753 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 20432 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:46:48,758 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:46:49,431 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:46:49,433 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:46:49,457 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:46:50,022 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:46:50,031 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:46:50,032 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:46:50,032 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:46:50,119 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:46:50,119 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1322 ms
+2023-03-13 17:46:51,484 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@397dfbe8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@783f5f71, org.springframework.security.web.context.SecurityContextHolderFilter@42a97053, org.springframework.security.web.header.HeaderWriterFilter@1aca6dc3, org.springframework.web.filter.CorsFilter@3791af, org.springframework.security.web.csrf.CsrfFilter@430212cb, org.springframework.security.web.authentication.logout.LogoutFilter@20a9fb01, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@33089426, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@129c322f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@66fff42f, org.springframework.security.web.access.ExceptionTranslationFilter@79631db0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7d3815f7]
+2023-03-13 17:46:51,792 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:46:51,808 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 17:46:51,809 INFO com.fly.ServerApplication [main] wuhu-boot-server start successfully,port:8080
+2023-03-13 17:46:51,824 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 3.425 seconds (process running for 4.151)
+2023-03-13 17:47:32,738 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:47:32,770 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 8196 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:47:32,774 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:47:33,422 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:47:33,425 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:47:33,447 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:47:33,999 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:47:34,008 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:47:34,009 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:47:34,009 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:47:34,093 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:47:34,093 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1289 ms
+2023-03-13 17:47:35,460 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@397dfbe8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@783f5f71, org.springframework.security.web.context.SecurityContextHolderFilter@42a97053, org.springframework.security.web.header.HeaderWriterFilter@1aca6dc3, org.springframework.web.filter.CorsFilter@3791af, org.springframework.security.web.csrf.CsrfFilter@430212cb, org.springframework.security.web.authentication.logout.LogoutFilter@20a9fb01, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@33089426, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@129c322f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@66fff42f, org.springframework.security.web.access.ExceptionTranslationFilter@79631db0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7d3815f7]
+2023-03-13 17:47:35,757 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:47:35,772 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 17:47:35,773 INFO com.fly.ServerApplication [main] wuhu-boot-server start successfully,port:8080
+2023-03-13 17:47:35,792 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:47:35,792 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:47:35,803 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:47:35,805 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:48:21,231 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:48:21,267 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 8324 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:48:21,271 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:48:21,926 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:48:21,928 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:48:21,951 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:48:22,515 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:48:22,524 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:48:22,525 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:48:22,525 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:48:22,609 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:48:22,609 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1308 ms
+2023-03-13 17:48:23,969 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1983a4e4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@29b4444a, org.springframework.security.web.context.SecurityContextHolderFilter@6d5de79a, org.springframework.security.web.header.HeaderWriterFilter@a93c798, org.springframework.web.filter.CorsFilter@3ce7a354, org.springframework.security.web.csrf.CsrfFilter@2314cd97, org.springframework.security.web.authentication.logout.LogoutFilter@ff8e36d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16f8df70, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6f0ae0ee, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2914a328, org.springframework.security.web.access.ExceptionTranslationFilter@687fd6e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7ac90dab]
+2023-03-13 17:48:24,262 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:48:24,277 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 17:48:24,278 INFO com.fly.ServerApplication [main] wuhu-boot-server start successfully,port:8080
+2023-03-13 17:48:24,296 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:48:24,296 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:48:24,307 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:48:24,309 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:50:31,192 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 17:50:31,224 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 18904 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 17:50:31,228 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 17:50:31,905 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 17:50:31,908 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 17:50:31,931 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 17:50:32,485 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 17:50:32,495 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:50:32,496 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 17:50:32,496 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 17:50:32,579 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 17:50:32,580 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1314 ms
+2023-03-13 17:50:33,945 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@26291192, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@27d5eb00, org.springframework.security.web.context.SecurityContextHolderFilter@2651e783, org.springframework.security.web.header.HeaderWriterFilter@16f8df70, org.springframework.web.filter.CorsFilter@2b540131, org.springframework.security.web.csrf.CsrfFilter@1e3dc24f, org.springframework.security.web.authentication.logout.LogoutFilter@27048db3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4eb73cc8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6e23ba17, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@225ac5e7, org.springframework.security.web.access.ExceptionTranslationFilter@6d5de79a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1ce57bbb]
+2023-03-13 17:50:34,245 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:50:34,261 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 17:50:34,262 INFO com.fly.ServerApplication [main] wuhu-boot-server start successfully,port:8080
+2023-03-13 17:50:44,819 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:50:44,819 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 17:50:44,829 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-8080"]
+2023-03-13 17:50:44,831 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-8080"]
+2023-03-13 18:03:08,434 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 18:03:08,468 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 31920 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 18:03:08,472 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 18:03:09,206 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 18:03:09,209 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 18:03:09,232 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 18:03:09,796 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 18:03:09,806 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 18:03:09,807 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 18:03:09,807 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 18:03:09,894 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 18:03:09,895 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1384 ms
+2023-03-13 18:03:11,291 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7d3815f7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b87ea8b, org.springframework.security.web.context.SecurityContextHolderFilter@5401c6a8, org.springframework.security.web.header.HeaderWriterFilter@6705b763, org.springframework.web.filter.CorsFilter@c79780, org.springframework.security.web.csrf.CsrfFilter@68229a6, org.springframework.security.web.authentication.logout.LogoutFilter@59aa1d1c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@359fa722, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@27b7204, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@594c66c3, org.springframework.security.web.access.ExceptionTranslationFilter@20e48e63, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@576b385d]
+2023-03-13 18:03:11,586 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 18:03:11,602 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 18:03:11,604 INFO com.fly.ServerApplication [main] wuhu-boot-server start successfully,port:8080
+2023-03-13 18:03:11,623 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-8080"]
+2023-03-13 18:03:11,623 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 18:03:11,635 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-8080"]
+2023-03-13 18:03:11,637 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-8080"]
+2023-03-13 18:06:52,877 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-13 18:06:52,913 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 19.0.1 with PID 21120 (C:\study\java\demo\wuhu-boot\wuhu-boot-server\build\classes\java\main started by admin in C:\study\java\demo\wuhu-boot)
+2023-03-13 18:06:52,916 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-13 18:06:53,603 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-13 18:06:53,605 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-13 18:06:53,628 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-03-13 18:06:54,183 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 18:06:54,191 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 18:06:54,193 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 18:06:54,193 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-13 18:06:54,275 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 18:06:54,275 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1323 ms
+2023-03-13 18:06:55,656 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5535e9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@71eaef6a, org.springframework.security.web.context.SecurityContextHolderFilter@239d9cb7, org.springframework.security.web.header.HeaderWriterFilter@3ea8ff31, org.springframework.web.filter.CorsFilter@e3692ca, org.springframework.security.web.csrf.CsrfFilter@2051a0ec, org.springframework.security.web.authentication.logout.LogoutFilter@7b58d678, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1ab21633, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@59aa1d1c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@75adb1c0, org.springframework.security.web.access.ExceptionTranslationFilter@10830d50, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3791af]
+2023-03-13 18:06:55,962 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 18:06:55,977 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 18:06:55,978 INFO com.fly.ServerApplication [main] wuhu-boot-server start successfully,port:8080
+2023-03-13 18:06:55,995 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-8080"]
+2023-03-13 18:06:55,995 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-13 18:06:56,007 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-8080"]
+2023-03-13 18:06:56,009 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-8080"]

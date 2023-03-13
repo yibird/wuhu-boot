@@ -7,6 +7,23 @@ spring:
     multipart:
       max-file-size: 1024MB
       max-request-size: 1024MB
+  data:
+    # redis配置
+    redis:
+      host: 192.168.159.128
+      port: 6379
+      username:
+      password:
+      lettuce:
+        pool:
+          # lettuce连接池最大连接数,默认8
+          max-active: 8
+          # lettuce连接池最大空闲连接数,默认0
+          max-idle: 0
+          # lettuce连接池最小空闲连接数,默认0
+          min-idle: 0
+          # lettuce连接池最大等待时间(单位毫秒),默认-1ms
+          max-wait: -1ms
 
 ##### mybatis-plus配置
 mybatis-plus:
@@ -21,3 +38,24 @@ mybatis-plus:
     db-config:
       id-type: auto
       update-strategy: not_null
+##### redis配置
+
+
+##### 多级缓存配置
+multiple-cache:
+  ## caffeine缓存配置
+  caffeine:
+    # 缓存过期时间,单位毫秒
+    expireAfterAccess: 30000
+    # 缓存初始化存储大小
+    initialCapacity: 100
+    # 缓存最大存储大小
+    maximumSize: 1000
+    # 写入后过期时间,单位毫秒
+    expireAfterWrite: 1000
+  ## redis缓存配置
+  redis:
+    # 缓存前缀,缓存前缀+缓存key组合最为最终操作key
+    prefix: "cache-"
+    # 默认过期时间,单位毫秒
+    expire: 100000

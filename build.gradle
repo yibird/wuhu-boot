@@ -51,6 +51,7 @@ subprojects {
         implementation "org.springframework.boot:spring-boot-starter-log4j2"
         implementation "com.lmax:disruptor"
         implementation 'org.springframework.boot:spring-boot-starter-test'
+        annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
 
         compileOnly 'org.projectlombok:lombok'
         annotationProcessor 'org.projectlombok:lombok'
@@ -59,6 +60,7 @@ subprojects {
 
         testImplementation 'org.junit.jupiter:junit-jupiter-api'
         testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+
     }
 }
 
