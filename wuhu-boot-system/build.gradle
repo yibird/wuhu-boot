@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+    id 'java-library'
+}
+
+group 'com.fly'
+version '0.0.1'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    api project(':wuhu-core')
+    api project(':wuhu-boot-auth')
+    implementation 'com.github.penggle:kaptcha'
+}
+compileJava {
+    options.compilerArgs << "-Amapstruct.unmappedTargetPolicy=IGNORE"
+}
+
+test {
+    useJUnitPlatform()
+}

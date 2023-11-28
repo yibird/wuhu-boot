@@ -1,0 +1,39 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #    url: jdbc:mysql://localhost:3306/wuhu-boot?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&nullCatalogMeansCurrent=true&useServerPrepStmts=true&cachePrepStmts=true
+    #    username: root
+    #    password: 123456
+    url: ENC(1GXBE7ReBUvv0UtcpDW4GOnVb0sqMZD6Npumz83nYunwGRhgjLRYauLrW+/MaPgrVTsku2VIsTPrupe84F2B4B8mwpeAbz4nkhC1d+sBeFRPEjasT1ltZHkOg6mkDHjA9UnWRWkN6PeMJKjtazmcibHXRIWttq6HkUjibopeu8AovZQ5oNMUOf3qEY1+w4DRqri7xJAt0wP7C3rv7jhVUd7BaI4xjxBe7af41065vAmUQ3mf9Nb2+LkRQDpLOjTV0h1EHSdUQ0qdWwwy/A1CUa0L0ZQdMjQrwTbuDULDbbI=)
+    username: ENC(kcLirmAx6vNG3QUqw55D8n4VqoICVbB9jYs76Ti1nEGvDHhgVc372xQEiLK2IQoC)
+    password: ENC(OGE/7wZMXzOxqzu7tmgUOEHMU9/n/aeCwFoVMyyHz6reBk+IaIE6kbaqSQvyl+4A)
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Asia/Shanghai
+  # spring-security
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: google-client-id
+            client-secret: google-client-secret
+
+## springdoc-openapi项目配置
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    tags-sorter: alpha
+    operations-sorter: alpha
+    config-url: /v3/api-docs
+  api-docs:
+    path: /v3/api-docs
+  group-configs:
+    - group: 'default'
+      paths-to-match: '/**'
+      packages-to-scan: com.fly
+## knife4j
+knife4j:
+  enable: true
+  setting:
+    language: zh_cn

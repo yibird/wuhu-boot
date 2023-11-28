@@ -1,0 +1,140 @@
+server:
+  port: 9999
+  tomcat:
+    max-connections: 100000
+    threads:
+      max: 200
+      min-spare: 20
+    accept-count: 200
+  # 服务器关闭类型
+  shutdown: graceful
+
+## spring
+spring:
+  application:
+    name: wuhu-boot-server
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-file-size: 1024MB
+      max-request-size: 1024MB
+  data:
+    # redis配置
+    redis:
+      host: localhost
+      port: 6379
+      username:
+      password:
+      lettuce:
+        pool:
+          # lettuce连接池最大连接数,默认8
+          max-active: 8
+          # lettuce连接池最大空闲连接数,默认0
+          max-idle: 0
+          # lettuce连接池最小空闲连接数,默认0
+          min-idle: 0
+          # lettuce连接池最大等待时间(单位毫秒),默认-1ms
+          max-wait: -1ms
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    hikari:
+      minimum-idle: 10
+      maximum-pool-size: 32
+      idle-timeout: 0
+      max-lifetime: 1800000
+      pool-name: pool
+      connection-timeout: 30000
+  lifecycle:
+    timeout-per-shutdown-phase: 30s
+  # 启用虚拟线程
+  threads:
+    virtual:
+      enabled: true
+#  security:
+#    oauth2:
+#      authorization-server:
+#        client:
+#          registration:
+#            github:
+#              provider: spring
+#              client-id: client-a
+#              client-secret: secret
+#              authorization-grant-type: authorization_code
+#              redirect-uri: "http://127.0.0.1:8080/authorized"
+#              scope: scope-a
+#          provider:
+#            github:
+#              user-info-uri: https://api.github.com/user
+#              authorization-uri: https://github.com/login/oauth/authorize
+#              token-uri: https://github.com/login/oauth/access_token
+
+
+
+
+## mybatis-flex
+mybatis-flex:
+  type-aliases-package: com.fly.model.domain
+  mapper-locations: classpath*:mapper/*Mapper.xml
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+    call-setters-on-nulls: true
+    jdbc-type-for-null: null
+  global-config:
+    key-config:
+      key-type: auto
+  lazy-initialization: true
+
+##### redis配置
+
+##### 多级缓存配置
+multiple-cache:
+  ## caffeine缓存配置
+  caffeine:
+    # 缓存过期时间,单位毫秒
+    expireAfterAccess: 30000
+    # 缓存初始化存储大小
+    initialCapacity: 100
+    # 缓存最大存储大小
+    maximumSize: 1000
+    # 写入后过期时间,单位毫秒
+    expireAfterWrite: 1000
+  ## redis缓存配置
+  redis:
+    # 缓存前缀,缓存前缀+缓存key组合最为最终操作key
+    prefix: "cache-"
+    # 默认过期时间,单位毫秒
+    expire: 100000
+
+## jasypt配置
+jasypt:
+  encryptor:
+    pool-size: 1
+    password: Y6M9fAJQdU7jNp5MW
+    algorithm: PBEWITHHMACSHA512ANDAES_256
+    property:
+      prefix: ENC(
+      suffix: )
+
+##### jwt配置
+jwt:
+  # 加密盐
+  secret: n7^J)TsXN&IHi%Q^9mO#2Rvvpg86t+I$2eajLEcj0VzehDG
+  # access_token过期时间(s)
+  expires: 3600
+  # refresh_token过期时间(s)
+  refresh_token_expires: 7200
+  # 头字段
+  header: Authorization
+  # 前缀
+  prefix: Bearer
+
+# logging
+logging:
+  config: classpath:log4j2.xml
+  level:
+    com:
+      zaxxer:
+        hikari: DEBUG

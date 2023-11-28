@@ -1,0 +1,10 @@
+auth:
+  ignore_urls:
+    - /swagger-ui/index.html
+    - /swagger-ui/**
+    - /v3/api-docs/**
+    - /doc.html
+    - /webjars/**
+    - /v1/sys/auth/**
+    - /upload/**
+    - /

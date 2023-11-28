@@ -1,0 +1,75 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.2.0'
+    id "io.spring.dependency-management" version "1.1.4"
+}
+apply from: 'config.gradle'
+
+allprojects {
+    group = "com.fly"
+    version = '0.0.1'
+
+    repositories {
+        mavenLocal()
+        maven { url "https://maven.aliyun.com/nexus/content/groups/public/" }
+        mavenCentral()
+    }
+}
+
+wrapper {
+    gradleVersion = '8.0'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+jar.enabled = true
+bootJar.enabled = false
+
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'org.springframework.boot'
+    apply plugin: 'io.spring.dependency-management'
+
+    sourceCompatibility = JavaVersion.VERSION_19
+    targetCompatibility = JavaVersion.VERSION_19
+
+    dependencyManagement {
+        dependencies {
+            println rootProject.ext.dependencies
+            for (depJar in rootProject.ext.dependencies) {
+                dependency depJar.value
+            }
+        }
+    }
+    configurations {
+        all {
+            exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
+        }
+    }
+
+    // 依赖集合
+    dependencies {
+        implementation 'org.springframework.boot:spring-boot-starter-web'
+        implementation 'org.springframework.boot:spring-boot-starter-log4j2'
+        implementation 'org.springframework.boot:spring-boot-starter-test'
+        annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
+
+        compileOnly 'org.projectlombok:lombok'
+        annotationProcessor 'org.projectlombok:lombok'
+        implementation 'org.mapstruct:mapstruct'
+        annotationProcessor 'org.mapstruct:mapstruct-processor'
+
+        testImplementation 'org.junit.jupiter:junit-jupiter-api'
+        testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+
+    }
+    tasks.withType(JavaCompile) {
+        options.encoding = 'utf-8'
+    }
+    tasks.withType(Javadoc) {
+        options.encoding = 'utf-8'
+    }
+}
+

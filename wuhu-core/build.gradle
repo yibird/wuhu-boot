@@ -1,0 +1,42 @@
+plugins {
+    id 'java'
+    id 'java-library'
+}
+
+group 'com.fly'
+version '0.0.1'
+
+repositories {
+    mavenCentral()
+}
+configurations {
+//    exclude group: 'org.mybatis', module: 'mybatis-spring'
+}
+
+dependencies {
+    api "org.springframework.boot:spring-boot-starter-security"
+    api "org.springframework.boot:spring-boot-starter-validation"
+    api "org.springframework.boot:spring-boot-starter-data-redis"
+    api "org.springframework.boot:spring-boot-starter-aop"
+    api 'com.github.xiaoymin:knife4j-openapi3-jakarta-spring-boot-starter'
+    api 'jakarta.servlet:jakarta.servlet-api'
+    api 'com.mybatis-flex:mybatis-flex-spring-boot-starter'
+    api 'com.zaxxer:HikariCP'
+    api 'cn.hutool:hutool-all'
+    api 'com.google.guava:guava'
+    api 'com.github.ulisesbocchio:jasypt-spring-boot-starter'
+    api 'org.mybatis:mybatis-spring:3.0.3'
+    implementation 'com.mysql:mysql-connector-j'
+    implementation 'net.oschina.j2cache:j2cache-core'
+    implementation 'com.alibaba:easyexcel'
+    implementation 'com.squareup.okio:okio'
+    implementation 'org.lionsoul:ip2region'
+    implementation 'com.github.ben-manes.caffeine:caffeine'
+    implementation 'org.apache.httpcomponents.client5:httpclient5'
+    implementation 'p6spy:p6spy'
+
+}
+
+test {
+    useJUnitPlatform()
+}

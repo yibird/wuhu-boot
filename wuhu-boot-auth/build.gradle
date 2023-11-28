@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+    id 'java-library'
+}
+
+group = 'com.fly'
+version = '0.0.1'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':wuhu-core')
+//    api "org.springframework.boot:spring-boot-starter-oauth2-authorization-server"
+    implementation 'com.auth0:java-jwt'
+}
+
+test {
+    useJUnitPlatform()
+}
