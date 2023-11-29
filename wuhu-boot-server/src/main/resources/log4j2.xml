@@ -19,6 +19,7 @@
             <AppenderRef ref="Console"/>
         </Logger>
         <Root level="info">
+            <AppenderRef ref="Console"/>
             <AppenderRef ref="RandomAccessFile"/>
         </Root>
     </Loggers>
