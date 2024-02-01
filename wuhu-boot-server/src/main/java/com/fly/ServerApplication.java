@@ -9,19 +9,17 @@ import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.boot.web.context.WebServerInitializedEvent;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
-import org.springframework.core.env.Environment;
 import org.springframework.web.client.RestClient;
 
 import java.lang.management.ManagementFactory;
 
 /**
- * @Description: 服务启动类
- * @Author: zchengfeng
- * @Data: 2022/12/6 14:24
+ * @Description 服务启动类
+ * @Author zchengfeng
+ * @Author 2022/12/6 14:24
  */
 @SpringBootApplication
 public class ServerApplication extends SpringBootServletInitializer implements ApplicationRunner, ApplicationListener<ContextRefreshedEvent> {

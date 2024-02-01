@@ -3,8 +3,8 @@ package com.fly.common.exception;
 import lombok.Getter;
 
 /**
- * @Description: 响应状态码枚举类
- * @Author: zchengfeng
+ * @Description 响应状态码枚举类
+ * @Author zchengfeng
  * @Date: 2023-02-15 23:17:46
  */
 @Getter

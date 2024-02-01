@@ -26,14 +26,18 @@ public class BaseServiceImpl<M extends BaseMapper<DO>, DO extends BaseDO<DO>, DT
     @Transactional
     @Override
     public ApiResult<Void> save(DTO dto) {
-        if (dtoToDoFunc == null) return ApiResult.error("转换函数不能为空");
+        if (dtoToDoFunc == null) {
+            return ApiResult.error("转换函数不能为空");
+        }
         return ApiResult.save(super.save(dtoToDoFunc.apply(dto)));
     }
 
     @Transactional
     @Override
     public ApiResult<Void> update(DTO dto) {
-        if (dtoToDoFunc == null) return ApiResult.error("转换函数不能为空");
+        if (dtoToDoFunc == null) {
+            return ApiResult.error("转换函数不能为空");
+        }
         return ApiResult.update(this.updateById(dtoToDoFunc.apply(dto)));
     }
 

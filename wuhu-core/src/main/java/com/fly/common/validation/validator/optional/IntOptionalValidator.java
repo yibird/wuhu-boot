@@ -25,7 +25,9 @@ public class IntOptionalValidator implements ConstraintValidator<IntOptional, In
 
     @Override
     public boolean isValid(Integer value, ConstraintValidatorContext context) {
-        if (value == null) return true;
+        if (value == null) {
+            return true;
+        }
         context.buildConstraintViolationWithTemplate(this.message);
         return Arrays.stream(this.value).boxed().toList()
                 .contains(value);

@@ -20,7 +20,8 @@ ext {
             "httpclient5Version": "5.2.1",
             "hikariCPVersion"   : "5.1.0",
             "p6spyVersion"      : "3.9.1",
-            "mfVersion": "1.7.5",
+            "mfVersion"         : "1.7.5",
+            "dynamicDSVersion"  : "4.3.0",
             "jasyptVersion"     : "3.0.5",
             // OSS
             "aliyunOSSVersion"  : "3.17.2",
@@ -53,6 +54,7 @@ ext {
             "com.zaxxer:HikariCP"                                             : "com.zaxxer:HikariCP:${version.hikariCPVersion}",
             "p6spy"                                                           : "p6spy:p6spy:${version.p6spyVersion}",
             "com.mybatis-flex:mybatis-flex-spring-boot-starter"               : "com.mybatis-flex:mybatis-flex-spring-boot-starter:${version.mfVersion}",
+            "com.baomidou:dynamic-datasource-spring-boot3-starter"            : "com.baomidou:dynamic-datasource-spring-boot3-starter:${version.dynamicDSVersion}",
             "com.github.ulisesbocchio:jasypt-spring-boot-starter"             : "com.github.ulisesbocchio:jasypt-spring-boot-starter:${version.jasyptVersion}",
             "com.aliyun.oss:aliyun-sdk-oss"                                   : "com.aliyun.oss:aliyun-sdk-oss:${version.aliyunOSSVersion}",
             "com.qiniu:qiniu-java-sdk:7.14.0"                                 : "com.qiniu:qiniu-java-sdk:${version.qiniuOSSVersion}",

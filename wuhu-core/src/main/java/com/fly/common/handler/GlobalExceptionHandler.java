@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import java.nio.file.AccessDeniedException;
 
 /**
- * @Description: 全局异常处理类
- * @Author: zchengfeng
+ * @Description 全局异常处理类
+ * @Author zchengfeng
  * @Date: 2023-02-15 23:25:34
  */
 @RestControllerAdvice
@@ -25,8 +25,8 @@ public class GlobalExceptionHandler {
     }
 
     /***
-     * @Description: 处理绑定参数异常
-     * @Author: zchengfeng
+     * @Description 处理绑定参数异常
+     * @Author zchengfeng
      * @Date: 2023-02-15 23:44:23
      * @param: ex 绑定参数异常对象
      * @return: com.fly.common.model.Result<java.lang.String>
@@ -39,8 +39,8 @@ public class GlobalExceptionHandler {
     }
 
     /***
-     * @Description: 处理拒绝访问异常
-     * @Author: zchengfeng
+     * @Description 处理拒绝访问异常
+     * @Author zchengfeng
      * @Date: 2023-02-15 23:43:48
      * @param: ex 拒绝访问异常对象
      * @return: com.fly.common.model.Result<java.lang.String>
@@ -56,8 +56,8 @@ public class GlobalExceptionHandler {
     }
 
     /**
-     * @Description: 处理异常
-     * @Author: zchengfeng
+     * @Description 处理异常
+     * @Author zchengfeng
      * @Date: 2023-02-15 23:49:47
      * @param: ex 异常对象
      * @return: com.fly.common.model.Result<java.lang.String>

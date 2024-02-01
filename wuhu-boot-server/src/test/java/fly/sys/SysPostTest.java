@@ -2,11 +2,11 @@ package fly.sys;
 
 import com.fly.ServerApplication;
 import com.fly.common.utils.TreeUtils;
-import com.fly.convert.SysMenuConvert;
-import com.fly.mapper.SysMenuMapper;
-import com.fly.mapper.SysPostMapper;
-import com.fly.model.domain.SysMenuDO;
-import com.fly.model.vo.SysMenuVO;
+import com.fly.menu.convert.SysMenuConvert;
+import com.fly.menu.mapper.SysMenuMapper;
+import com.fly.menu.model.domain.SysMenuDO;
+import com.fly.menu.model.vo.SysMenuVO;
+import com.fly.post.mapper.SysPostMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;

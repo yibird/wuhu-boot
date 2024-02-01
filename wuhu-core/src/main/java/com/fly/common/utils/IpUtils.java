@@ -18,8 +18,10 @@ public class IpUtils {
      * @param request HttpServletRequest
      * @return 返回ip地址
      */
-    public static String getIpAddr(HttpServletRequest request) {
-        if (request == null) return "unknown";
+    public static String getIpAddress(HttpServletRequest request) {
+        if (request == null){
+            return "unknown";
+        }
         String ip = request.getHeader("x-forwarded-for");
         if (ip == null || ip.isEmpty() || "unknown".equalsIgnoreCase(ip)) {
             ip = request.getHeader("Proxy-Client-IP");

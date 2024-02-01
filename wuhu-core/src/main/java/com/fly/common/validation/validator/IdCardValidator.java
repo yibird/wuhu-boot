@@ -23,9 +23,13 @@ public class IdCardValidator implements ConstraintValidator<IdCard, String> {
 
     @Override
     public boolean isValid(String value, ConstraintValidatorContext context) {
-        if (value == null) return true;
+        if (value == null) {
+            return true;
+        }
         int len = value.length();
-        if (len != 0 && len != 15 || len != 18) return false;
+        if (len != 0 && len != 15 && len != 18) {
+            return false;
+        }
         String regex = "^[1-9]\\d{5}(19|20)\\d{2}((0[1-9])|(1[0-2]))(([0-2][1-9])|10|20|30|31)\\d{3}[0-9Xx]$";
         Pattern pattern = Pattern.compile(regex);
         context.buildConstraintViolationWithTemplate(this.message);

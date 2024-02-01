@@ -30,8 +30,10 @@ public class ResultAdviceHandler implements ResponseBodyAdvice<Object> {
 
     @Override
     public Object beforeBodyWrite(Object body, @NotNull MethodParameter returnType, MediaType selectedContentType, Class<? extends HttpMessageConverter<?>> selectedConverterType, ServerHttpRequest request, ServerHttpResponse response) {
-        if (body instanceof ApiResult) return body;
-        if (getReturnName(returnType).equals("void") || Objects.isNull(body)) {
+        if (body instanceof ApiResult) {
+            return body;
+        }
+        if ("void".equals(getReturnName(returnType)) || Objects.isNull(body)) {
             return ApiResult.ok(body);
         }
         if (isBasicType(returnType)) {

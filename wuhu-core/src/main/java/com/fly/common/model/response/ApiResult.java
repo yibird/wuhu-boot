@@ -8,9 +8,9 @@ import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
 /**
- * @Description: 通用响应对象
- * @Author: zchengfeng
- * @Data: 2022/12/6 16:27
+ * @Description 通用响应对象
+ * @Author zchengfeng
+ * @Author 2022/12/6 16:27
  */
 @Data
 @NoArgsConstructor

@@ -16,9 +16,9 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
- * @Description: 基础实体类, 包含了实体类通用字段
- * @Author: zchengfeng
- * @Data: 2022/12/6 16:13
+ * @Description 基础实体类, 包含了实体类通用字段
+ * @Author zchengfeng
+ * @Author 2022/12/6 16:13
  */
 @Data
 @AllArgsConstructor

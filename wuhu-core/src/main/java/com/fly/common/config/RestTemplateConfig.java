@@ -14,8 +14,8 @@ import java.util.concurrent.TimeUnit;
 
 
 /**
- * @Description:RestTemplate配置类
- * @Author: zchengfeng
+ * @DescriptionRestTemplate配置类
+ * @Author zchengfeng
  * @Date: 2023/7/23 23:01
  */
 @Configuration
@@ -34,9 +34,9 @@ public class RestTemplateConfig {
     }
 
     /**
-     * @Description:创建RequestConfig实例,用于配置 HttpClient
+     * @Description创建RequestConfig实例,用于配置 HttpClient
      * 的请求参数和超时时间等设置
-     * @Author: zchengfeng
+     * @Author zchengfeng
      * @Date: 2023/7/23 23:35
      * @Return: RequestConfig实例
      */

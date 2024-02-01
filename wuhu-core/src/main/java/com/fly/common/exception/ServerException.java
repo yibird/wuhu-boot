@@ -3,8 +3,8 @@ package com.fly.common.exception;
 import lombok.Getter;
 
 /**
- * @Description:服务异常类
- * @Author: zchengfeng
+ * @Description服务异常类
+ * @Author zchengfeng
  * @Date: 2023-02-15 23:20:43
  */
 @Getter

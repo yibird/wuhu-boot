@@ -23,7 +23,9 @@ public class TreeUtils {
         return node -> {
             List<T> children = listMap.getOrDefault(node.getId(), new ArrayList<>());
             // 如果没有查找到父节点
-            if (children.isEmpty()) return node;
+            if (children.isEmpty()) {
+                return node;
+            }
             List<T> nodeChildren = children.stream()
                     .map(buildTreeRecursive(listMap))
                     .collect(Collectors.toList());

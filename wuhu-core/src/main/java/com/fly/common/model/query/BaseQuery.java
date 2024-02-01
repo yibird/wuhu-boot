@@ -7,9 +7,9 @@ import org.hibernate.validator.constraints.Range;
 
 
 /**
- * @Description: 查询公共参数
- * @Author: zchengfeng
- * @Data: 2022/12/6 15:57
+ * @Description 查询公共参数
+ * @Author zchengfeng
+ * @Author 2022/12/6 15:57
  */
 @Getter
 @ToString
